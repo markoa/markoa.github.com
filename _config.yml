@@ -1,0 +1,4 @@
+auto: true
+server_port: 3000
+pygments: false
+permalink: pretty

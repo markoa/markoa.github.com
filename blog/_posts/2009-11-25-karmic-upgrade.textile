@@ -1,0 +1,15 @@
+---
+layout: post
+title: Karmic upgrade
+---
+
+Continuing my journal of Ubuntuism. Here's what happenned after I upgraded to 9.10 "Karmic Koala" two weeks ago:
+
+* Wireless connection is now always stable.
+* Suspend to RAM finally works.
+* I set up Tomboy notes synchronization through Ubuntu One. In practice, it doesn't connect on desktop startup, even though it's configured to, and when I connect it manually, it still failed to do anything aside from initial push and pull.
+* Hamster has an important <a href="https://bugzilla.gnome.org/show_bug.cgi?id=599343">regression</a>.
+* Button icons are <a href="http://www.osnews.com/story/21935/GNOME_To_Drop_Icons_in_Buttons_Menus">gone</a>. So far I like that.
+* X is running in a low refresh rate on an external monitor. I hope to be able to somehow fix this, although in Ubuntu xorg.conf is almost empty and doesn't seem to have much effect.
+* Its Firefox 3.5 is somehow much better than the unofficial Shiretoko release in Jaunty, which had rendering bugs. Also doesn't leak memory like 3.0.
+* I can't get VMware Workstation to work yet. The <a href="http://ubuntuforums.org/showthread.php?t=1314006">common hack</a> that I find on Google doesn't work for me. At least this affects "only" my personal and not the company ebanking, which for basic purposes I can access through Firefox.

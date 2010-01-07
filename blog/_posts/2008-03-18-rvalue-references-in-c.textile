@@ -1,0 +1,10 @@
+---
+layout: post
+title: Rvalue references in C++
+---
+
+I have found an interesting article on <a href="http://www.artima.com">artima.com</a> titled <a href="http://www.artima.com/cppsource/rvalue.html">A Brief Introduction to Rvalue References</a> by Hinnant, Stroustrup, and Kozicki. The summary says:
+
+bq. Rvalue references is a small technical extension to the C++ language. Rvalue references allow programmers to avoid logically unnecessary copying and to provide perfect forwarding functions. They are primarily meant to aid in the design of higher performance and more robust libraries.
+
+It seems like a very good feature - _move semantics_ - which, in brief, helps to avoid unwanted copy construction.

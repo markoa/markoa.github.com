@@ -1,0 +1,12 @@
+---
+layout: post
+title: Robustness
+---
+
+Found a great quote in the _<a href="http://www.joelonsoftware.com/items/2008/03/17.html">Martian Headsets</a>_ post from Joel Spolsky:
+
+bq. Be conservative in what you do, be liberal in what you accept from others.
+
+...which comes from <a href="http://en.wikipedia.org/wiki/Jon_Postel">Jon Postel</a> in the <a href="http://tools.ietf.org/html/rfc793">TCP RFC</a>.
+
+It's clearly not a statement limited to network protocols.

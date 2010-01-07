@@ -1,0 +1,10 @@
+---
+layout: post
+title: gtkmm-utils 0.4.0
+---
+
+I've just released <a href="http://code.google.com/p/gtkmm-utils/">gtkmm-utils</a> 0.4.0, which doesn't add any new features but adds some functions to the Tile API, ie I've made some previously hidden internally contained widgets available via accessor functions. The page navigator widget has first and last buttons which really make a lot of sense. 
+
+Actually all modifications were driven by the development of the new version of Paperbox, which will be released after the soon-to-be-announced string freeze period.
+
+*<a href="http://gtkmm-utils.googlecode.com/files/gtkmm-utils-0.4.0.tar.gz">tarball</a>*

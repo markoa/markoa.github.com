@@ -1,0 +1,6 @@
+---
+layout: post
+title: Reorganized Paperbox wiki a bit
+---
+
+I just <a href="http://live.gnome.org/PaperBox">cleaned it up</a> a bit, and added a separate page trying to help people with <a href="http://live.gnome.org/PaperBox/Installation">the installation</a>.

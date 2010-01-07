@@ -1,0 +1,22 @@
+---
+layout: post
+title: Paperbox 0.4.2
+---
+
+I've just released <a href="http://live.gnome.org/PaperBox">Paperbox</a> 0.4.2; the <a href="http://download.gnome.org/sources/paperbox/0.4/">tarball is on GNOME FTP</a> as usual. There are no new features, but there is a significant performance improvement.
+
+<blockquote>
+* Visible performance improvements. Thumbnails are fetched when turning pages, all documents are instantly available and all metadata retrieval is done strictly in idle time.
+* Added menu and shortcuts for quick page navigation.
+* Dropped dependency on the boost library.
+* Updated translations:
+** cs: Zdenek Hatas, Lucas Lommer
+** de: Mario Blättermann
+** es: Jorge Gonzalez
+** et: Mattias Põldaru
+** eu: Inaki Larranaga Murgoitio
+** pt: Filipe Gomes
+** sv: Daniel Nylander
+</blockquote>
+
+Thanks to the awesome translators! I actually planned to implement some <a href="http://live.gnome.org/PaperBox/Roadmap">new stuff</a>, marked the version 0.5... however I've had so little free time left for this lately, and I just wanted to let people use what's in there now (the app is snappier, and that matters). Perhaps it's time to take another look at what's possible with Tracker 0.7.

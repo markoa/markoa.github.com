@@ -1,0 +1,6 @@
+---
+layout: post
+title: Doing your own shared library vs copy and paste
+---
+
+I often see people coming to my blog through search queries like "package gtkmm-utils not found". It clearly means that somebody was trying to build Paperbox from source, since it, or maybe the latest version, is not available as a package for his or her Linux distribution, then hitting an unknown pkg-config dependency. Is it the usage of gtkmm-utils that's maybe discouraging packagers a bit from doing the work, because they'd first have to package this obscure C++ library, which is slightly more tricky than packaging a new Gnome program? Would it be "better" if I didn't bother with the glibmm/gtkmm utilities idea in the first place and just copied all that code in a separate directory in Paperbox's source? Now whenever I am about to add something new to gtkmm-utils which I would like to have in Paperbox, I hesitate for 15 minutes because it feels like complicating everybody's lives (mostly mine). Or maybe I should continue with gtkmm-utils but start using it in a libegg kind of way where users of the code would be mostly expected to just copy the files they're interested in into their programs' source tree?

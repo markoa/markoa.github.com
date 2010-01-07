@@ -1,0 +1,10 @@
+---
+layout: post
+title: Plakatt 2.0 wrap up
+---
+
+On Tuesday, 2009-09-22, <a href="http://plakatt.com" target="_blank">Plakatt</a> 2.0 went live. Many exciting and life-changing things have happenned since I <a href="http://www.marko.anastasov.name/blog/2008/09/23/plakatt/" target="_blank">mentioned it</a> for the first time on this blog a year ago. We started a <a href="http://renderedtext.com" target="_blank">company</a>, teamed up with <a href="http://sprawsm.com" target="_blank">Sprawsm</a>, worked on different things that kept us from making it earlier. On the other hand, taking a break, then putting a lot of thinking into every aspect of the site might've had some good effect. The idea is still the same, however almost the entire user experience is redefined.
+
+<img class="alignnone" title="plakatt public homepage screenshot, final beta testing stage" src="http://dl.getdropbox.com/u/1911608/plakatt-home.png" alt="" width="456" height="385" />
+
+Read the <a href="http://blog.plakatt.com/post/193586342/plakatt-2-0" target="_blank">announcement</a> on the official blog. And if you can't read Serbian, watch this space to find out when it becomes (again) available in English.

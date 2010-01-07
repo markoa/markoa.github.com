@@ -1,0 +1,8 @@
+---
+layout: post
+title: The mainstream off-stream
+---
+
+This post echoes the title of the <a href="http://gilesbowkett.blogspot.com/2009/02/mainstream-will-never-catch-up.html">one from Giles Bowkett</a>. The observation itself is clear: it is unrealistic to expect companies full of enterprise-class developers to continuously learn and evaluate new things. In practice this means that it is not rare around here to find people working with almost a decade old software development tools, languages and frameworks. These folks then naturally look for various <a href="http://teddziuba.com/2009/02/effective-vices-for-the-it-pro.html">ways to vent</a>.
+
+The problem that I want to mention is slightly different, and that is *when a small software company builds a conservative culture* within itself and refuses to change. Small teams should be as open minded as possible, if nothing else then because they'll have the knowledge which will allow them to be more productive and thus competitive. It's of course up to the people.

@@ -1,0 +1,9 @@
+---
+layout: post
+title: On 2008-11-20
+---
+
+<ul class="aktt_tweet_digest">
+	<li>Reading all feeeds with Feedly from now on (http://www.feedly.com) - integrated with GReader, magazine-style display, integration with T*r. <a href="http://twitter.com/markoa/statuses/1015396118">#</a></li>
+	<li>Don't wait for G to give you styled Gmail - find something on <a href="http://short.to/a29" rel="nofollow">http://short.to/a29</a> to use with Stylish Fx extension instead <a href="http://twitter.com/markoa/statuses/1015399674">#</a></li>
+</ul>

@@ -1,0 +1,18 @@
+---
+layout: post
+title: Language micro communities and open source desktop
+---
+
+Currently you can write a Gnome application, and have it accepted as an official desktop module, in the following programming languages: C, C++, Python, Perl, C#, Java, JavaScript and Vala. This is great in theory - developers have a great deal of choice and are likely to find their favorite language in the list.
+
+However writing an application is rarely just about using preferred language bindings for GTK+. For example, you may need access to the desktop configuration system, web or local network, manipulate media, show notifications and so on. In order for a programming language to be a productive tool in the environment, there need to be appropriate binding libraries for the entire platform. And a way to access the C API in cases when the bindings are missing some bit.
+
+By virtue of FLOSS, everyone is free to implement whatever they want in whatever programming language they want. Everything is free and open, and you can take it from there. This is what makes it amazing and attractive to me personally. I believe that it is absolutely necessary to have that possibility.
+
+Gnome gives that much choice because it never had governance like KDE, where language bindings are present for scripting, but it is always clear in which programming language you should be developing an application (and the desktop platform itself) - C++.
+
+I think that this choice has cost Gnome a lot, and that a lot more could've been done if development was not so fragmented in language micro communities. So many people are busy making tiny bits of the platform available in their favorite programming language that there are very few resources left to develop the platform itself.
+
+Take <a href="http://mail.gnome.org/archives/tracker-list/2009-November/msg00090.html">this example</a>. There is a new Tracker design, with still very variable scope, undiscovered possibilities and unfinished libraries for application developers. One person is working on bindings for Tracker's libraries in three programming languages; meanwhile it is taking years now to replace GConf, for example, because there is, as far as I know, just one person working on it. Perhaps it's just about what's more fun.
+
+But I do believe that Gnome should have a more strict policy, saying we write our platform in C and GObjects, and you can write applications in language X, and optionally script them with language Y (even though I've been a C++ person there so far, I think my vote would, as a compromise, go to C#/Mono as language X and JavaScript as Y). By providing more guidance there would be more time left for everyone to make the platform more capable and produce even better applications. It would be more clear what's a contribution to the project and what's a pass time personal activity.

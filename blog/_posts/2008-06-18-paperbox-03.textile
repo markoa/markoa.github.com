@@ -1,0 +1,18 @@
+---
+layout: post
+title: Paperbox 0.3
+---
+
+I've just <a href="http://mail.gnome.org/archives/gnome-announce-list/2008-June/msg00050.html">released Paperbox 0.3</a>. This is a minor feature release before <a href="http://guadec.expectnation.com/public/content/main">GUADEC</a>, to give me time for some other plans I had for the meantime. Here's the list of new changes:
+
+<ul>
+	<li>Autocomplete tags in the input dialog</li>
+
+	<li>Store window state in a configuration file</li>
+
+	<li>Use a darker font colour for tags in category editor</li>
+
+	<li>New and updated translations: German, Norwegian bokmål, Polish, Brazillian Portuguese and Swedish</li>
+</ul>
+
+*<a href="http://ftp.gnome.org/pub/GNOME/sources/paperbox/0.3/paperbox-0.3.0.tar.gz">Download</a>*

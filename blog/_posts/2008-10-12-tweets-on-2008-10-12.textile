@@ -1,0 +1,12 @@
+---
+layout: post
+title: Tweets on 2008-10-12
+---
+
+<ul class="aktt_tweet_digest">
+	<li>Off to wander around with my camera <a href="http://twitter.com/markoa/statuses/956421518">#</a></li>
+	<li>It's nice to work next to an open window <a href="http://twitter.com/markoa/statuses/956553237">#</a></li>
+	<li>I kind of got into Dawkins: reading The Ancestor's Tale reveals many new ideas. <a href="http://twitter.com/markoa/statuses/956796793">#</a></li>
+</ul>
+<p class="aktt_credit">Powered by <a href="http://alexking.org/projects/wordpress">Twitter Tools</a>.
+

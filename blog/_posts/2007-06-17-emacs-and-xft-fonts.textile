@@ -1,0 +1,47 @@
+---
+layout: post
+title: Emacs and Xft fonts
+---
+
+The thing I disliked about <a href="http://www.gnu.org/software/emacs">Emacs</a> is the limited set of fonts you can tell it to display, and how the default font it starts with is too small. I guess there's a way to specify the X font and its' size somehow but I never figured it out (ie Google hasn't). So when I'd start it, I'd always do Shift-click to select a bigger font, which over time becomes tedious. That repetitiveness aside, I really wanted to have pretty fonts in Emacs, and stop occasionally getting into other editors just because they show a Bitstream or DejaVu family font (yes, esthetics matter). Something like this:
+
+<a href='http://dl.dropbox.com/u/830772/Images/blog/emacs_xft_fonts.jpg' title='Emacs with Xft fonts'><img src='http://dl.dropbox.com/u/830772/Images/blog/emacs_xft_fonts.jpg' alt='Emacs with Xft fonts' width="300" height="150" /></a>
+
+Now, Emacs 22 is finally out, and it even has a Gtk+ interface (which is not that important since anyone with even a minimal degree of dignity never touches the mouse while using Emacs or <a href="http://www.vim.org">vim</a> :)). I haven't tested it (there's currently no package for <a href="http://fedoraproject.org">FC6</a>), but from the long <a href="http://www.gnu.org/software/emacs/NEWS.22.1">NEWS</a> it seems that things have not changed about fonts. What it takes would be the support for <a href="http://www.fontconfig.org/">Xft</a>-rendered fonts, which allows <a href="http://freetype.sourceforge.net/index2.html">FreeType</a>'s antialiased fonts with the X Window system. The solution is to build your new Emacs from the emacs-unicode-2 branch which should eventually become Emacs 23. Here are the steps I did:
+
+Check it out:<!--more-->
+
+@cvs -z3 -d:pserver:anonymous@cvs.savannah.gnu.org:/sources/emacs co -r emacs-unicode-2 emacs@
+
+Take a minute to read through all the options you can configure it with:
+
+@cd emacs/
+./configure --help@
+
+I configured with:
+
+@./configure --with-xpm --with-freetype --enable-font-backend --with-xft --with-gtk --program-suffix=-cvs@
+
+(Notice the program suffix to prevent the name clash in your bin path group.)
+
+First you need to
+
+@make bootstrap@
+
+which will build the Lisp part. Then do @make@ and @make install@.
+
+You specify the font Emacs should load by setting a property
+in ~/.Xresources:
+
+@echo "Emacs.font: Bitstream Vera Sans Mono-14" >> ~/.Xresources@
+
+Before launching, reload the Xresources file with:
+
+@xrdb -merge ~/.Xresources@
+
+Now run @emacs-cvs@. You may notice that there are some new modes, such as XML.
+
+;; Btw, if you're tired of Emacs not working with the same clipboards as other desktop applications, paste these lines in your @.emacs@ file (works for version 21 too):
+
+@(setq x-select-enable-clipboard t)
+(setq interprogram-paste-function 'x-cut-buffer-or-selection-value)@

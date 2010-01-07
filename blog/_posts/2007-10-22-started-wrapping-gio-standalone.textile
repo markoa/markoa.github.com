@@ -1,0 +1,6 @@
+---
+layout: post
+title: Started wrapping gio-standalone
+---
+
+As I <a href="http://mail.gnome.org/archives/gtkmm-list/2007-October/msg00150.html">announced yesterday</a>, I've begun writing C++ bindings for gio-standalone. A welcome addition to the GTK+ application framework, it (the wrapper library) will eventually be merged in glibmm. The development will take place in the gnomemm incubator, at @http://svn.gnome.org/svn/gnomemm/giomm/trunk@

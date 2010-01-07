@@ -1,0 +1,8 @@
+---
+layout: post
+title: PaperBox in jhbuild
+---
+
+I have added dependency specs for gtkmm-utils, along with a reference to Savannah git repository, and PaperBox in the GNOME 2.22 jhbuild moduleset file. So now it is possible to build PaperBox with jhbuild, just like any other proper GNOME software. Although building all 66 dependencies does take _time_.
+
+Note that it does not install the boost libraries. That's outside the scope of jhbuild to do.

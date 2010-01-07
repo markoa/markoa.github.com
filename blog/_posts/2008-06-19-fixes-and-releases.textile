@@ -1,0 +1,6 @@
+---
+layout: post
+title: Fixes and releases
+---
+
+<a href="http://ftp.gnome.org/pub/GNOME/sources/paperbox/0.3/paperbox-0.3.1.tar.gz">Paperbox 0.3.1</a> fixes the startup problem probably a lot of people had with the previous tarball, due to missing configuration directory checks. <a href="http://download.savannah.nongnu.org/releases/gtkmm-utils/0.3/gtkmm-utils-0.3.2.tar.gz">gtkmm-utils 0.3.2</a> fixes a compile problem with g++ 4.3 (eg in Fedora 9) and includes the <a href="http://www.marko.anastasov.name/blog/2008/06/09/extending-gtkentrycompletion/">EntryMultiCompletion</a> class.

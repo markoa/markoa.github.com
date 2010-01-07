@@ -1,0 +1,6 @@
+---
+layout: post
+title: Trying out mod_rails
+---
+
+I just installed <a href="http://www.modrails.com">Passenger / mod_rails</a>, and it's really a very simple task. The only part that could take a while if you're, like me, doing something like this for the first time, is the actual code deployment. In any case, <a href="http://sysadminschronicles.com/articles/2008/05/13/ubuntu-8-04-rails-server-using-passenger-part-2">this blog post</a> is a sufficient guide. On a 256MB slice and a BackgrounDRB task it hits the swap area hard, so it seems that it takes a little more memory than a pair of mongrels. Although <a href="http://www.pervasivecode.com/blog/2008/04/14/why-mod_rails-is-a-really-good-thing-for-light-duty-ruby-on-rails/">I already read about that</a>. I suppose it should be fine with 512MB with a light load. And RailsMaxPoolSize <a href="http://www.modrails.com/documentation/Users%20guide.html">is quite important</a>.

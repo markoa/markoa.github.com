@@ -1,0 +1,34 @@
+---
+layout: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+<channel>
+	<title>Marko Anastasov</title>
+	<atom:link href="http://marko.anastasov.name/blog/feed" rel="self" type="application/rss+xml" />
+	<link>http://marko.anastasov.name/blog</link>
+	<description></description>
+	<lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
+	<generator>Jekyll</generator>
+	<language>en</language>
+	<sy:updatePeriod>daily</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	{% for post in site.posts limit:10 %}	
+	<item>
+		<title>{{ post.title }}</title>
+		<link>http://marko.anastasov.name{{ post.url }}</link>
+		<comments>http://marko.anastasov.name{{ post.url }}#disqus_thread</comments>
+		<pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+		<dc:creator>Marko Anastasov</dc:creator>
+		<guid isPermaLink="false">http://marko.anastasov.name{{ post.url }}</guid>
+		<content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
+	</item>
+	{% endfor %}
+</channel>

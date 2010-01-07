@@ -1,0 +1,26 @@
+---
+layout: post
+title: PaperBox 0.2
+---
+
+After a couple of months of intense slacking, I'm releasing a much better <a href="http://live.gnome.org/PaperBox">PaperBox</a>. <a href="http://ftp.gnome.org/pub/GNOME/sources/paperbox/0.2/paperbox-0.2.0.tar.gz">*Download*</a>.
+
+I've made a screencast:
+
+<object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/6pDbreBzcrs&hl=en"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/6pDbreBzcrs&hl=en" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object>
+
+It is also available for <a href="http://www.mediafire.com/?fs2unfmn1wd">download in full resolution ogg theora format</a>.
+
+h3. Changes
+
+
+
+Additional MIME types are included in index: all previously missing OpenDocument formats with text, AbiWord, Microsoft Office, PostScript, and plain text files.
+
+You can bundle tags into categories for easier organising. A simple editor is included. Category files are stored in $HOME/.config/paperbox/categories.
+
+All communication with Tracker is asynchronous. This means that, for example, the program won't hang anymore if you try to add a tag, but Tracker is currently busy indexing or generally not immediately responsive.
+
+PaperBox responds to external tag changes. If you tag a document in tracker-search-tool for instance, PaperBox will immediately show or hide the tag(s).
+
+And there are some important bug fixes and many translations. See the <a href="http://svn.gnome.org/svn/paperbox/tags/0.2.0-2008-05-01/NEWS">NEWS</a> file for details.

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="en-us" http-equiv="Content-Language" />
+    <meta content="The homepage of Marko Anastasov. Contains a blog and links to profiles on other websites." name="description" />
+
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="/css/default.css" media="screen, projection" rel="stylesheet" type="text/css" />
+
+    <link rel="alternate" type="application/atom+xml" title="Markov Anastasov" href="/atom.xml" />
+    
+    <link rel="openid.server" href="http://server.myid.net/server" />
+    <link rel="openid.delegate" href="http://marko.myid.net/" />
+    <meta http-equiv="X-XRDS-Location" content="http://marko.myid.net/xrds" />
+
+    <title>{{ page.title }} &mdash; Marko Anastasov</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">
+        <a href="/about" title="About">Marko Anastasov</a> has a <a href="/" title="Home">website</a>.
+      </h1>
+    </header>
+    <div id="wrapper">
+      {{ content }}
+      <footer id="footer">
+        <p>
+        <a href="/" title="Home">Home</a> &middot;
+        <a href="/about" title="About the author and site">About</a> &middot;
+        <a href="/archive" title="Archived writing">Archive</a> &middot;
+        <a href="/atom.xml" title="Blog's Atom feed">Feed</a>
+        </p>
+        <p class="contentLicense">
+        All original content is licensed under the <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a> except that which is quoted from elsewhere or attributed to others. All code that appears inlined is licensed under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a>.
+        </p>
+      </footer>
+    </div>
+    {% include analytics.html %}
+  </body>
+</html>

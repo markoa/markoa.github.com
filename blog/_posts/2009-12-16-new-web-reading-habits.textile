@@ -1,0 +1,13 @@
+---
+layout: post
+title: New web reading habits
+---
+
+p. <a href="http://www.instapaper.com">Instapaper</a> totally changed my way of reading on the web – for better.
+
+
+p. Instead of reading feeds in Google Reader, which has proved uncomfortable (and I’d always have hundreds of unread posts), I quickly filter out the interesting stuff, saving the selected with the “Read Later” bookmarklet. I may read the text immediately, although there is a new habit that I’m forming which is to have dedicated time for reading two or three times in a week.
+
+
+p. It’s not just about distraction in the narrow sense at that particular moment; I’ve realized just how unnecessary it is to have big web news or new development in X running through my head every day. I might just do more of my own work, or if it’s not time for work, not be inclined to be at the computer at all.
+

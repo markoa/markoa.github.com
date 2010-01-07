@@ -1,0 +1,24 @@
+---
+layout: post
+title: Executing scripts on a server over SSH
+---
+
+It took me a while to figure out how to run, for instance, @configure@ on a remote server while working in <a href="http://en.wikipedia.org/wiki/Secure_Shell">Secure Shell</a>. I was surprised to see that @./configure@ returnes a "not found" error. The simple solution is to do @/bin/theshell ./script@ :).
+
+*Tip:* Here's how you can determine the shell you're using (you can't be sure about remote machines):
+
+<pre>
+<code>
+$ echo $SHELL
+</code>
+</pre>
+
+and perhaps a bit more about yourself:
+
+<pre>
+<code>
+$ finger -m _username_
+</code>
+</pre>
+
+Btw, I believe that *comp.lang.ssh* is the best place to ask questions about SSH.

@@ -1,0 +1,12 @@
+---
+layout: post
+title: The downward spiral of local pop3 email
+---
+
+What <a href="http://dodji.blogspot.com/search/label/english">Dodji</a> calls "email storm" after he's been away for a few days, I feel like a little earthquake every day. I use Evolution as my email client. Launching it, at best, feels like launching the Netscape 6 web browser. Downloading 72 messages today, together with spam filtering, took 4 minutes on a Pentium D 930 with 2 gigs of RAM. My current signal-to-spam ratio is 2:3. I get a *lot* of horny junk, and some seem to be unrecognizable by spamassasin. In fact, after my email has been freely available to these mindless people through numerous mailing lists for some time, I think I might not ever be able to downsize of all the "curing" etc offers to a sensible measure.
+
+So I just got tired of this at one point (two days ago) and decided to unsubsribe from a couple of mailing lists on software I am no longer interested in and slowly outsource all this CPU and human clock cycles of fetching, filtering and storing work to GMail. I've had an account there for over two years and have found myself spontaneously using it more and more over the past six months.
+
+I'm not the first person to do this, am I...
+
+Still, I think that "normal" POP3 email is excellent when you are focused on no more than one major project and following one or two mailing list. Maybe even payed to do that, But I'm just not in that situation.

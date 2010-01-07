@@ -1,0 +1,8 @@
+---
+layout: post
+title: Extending Gtk::EntryCompletion
+---
+
+The default behaviour when using GtkEntryCompletion together with GtkEntry is for the auto-completion popup to appear only for the first entered string, replacing the entry's content on item selection. But for Paperbox I wanted to have auto-completion in a Gtk::Entry which allows multiple words to be auto-completed. Turns out that this is very easy to implement, you just need to write a custom matching function which does not always compare against the whole entry text but also looks for whitespace and previous words, and override Gtk::EntryCompletion::on_match_selected() to append new text at the end of an entry's content. The <a href="http://git.savannah.gnu.org/gitweb/?p=gtkmm-utils.git;a=blob;f=gtkmm-utils/entry-multi-completion.cc;h=4ecb3dbc4d3948866f5a04fe54c823198281e240;hb=HEAD">EntryMultiCompletion class is now in gtkmm-utils git tree</a>.
+
+<img src="http://img31.picoodle.com/img/img31/4/6/9/svemirac/f_20080609231m_77192b1.png" alt="entrymulticompletion screenshot" />

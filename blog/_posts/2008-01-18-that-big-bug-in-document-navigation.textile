@@ -1,0 +1,10 @@
+---
+layout: post
+title: That big bug in document navigation
+---
+
+It took a lot of time, the last step being building PaperBox in jhbuild to be able to step through the underlying GTK+ functions, before realizing what it has really been about.
+
+The problem was that navigating through pages and tags would keep previously selected documents to stay expanded. _(...many details left out to spare anyone reading this...)_ What I did not have in mind was that in gtkmm-utils code, adding new tiles to the TileView, which happens here whenever a new page is to be rendered, shows all tile's children. So I just needed to override that function and manually hide the extra widgets that show metadata.
+
+I have started to feel quite worried because I have not fixed this for quite a while. Of course, now it looks rather trivial. And it feels like a relief big enough to blog about it.

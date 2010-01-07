@@ -1,0 +1,16 @@
+---
+layout: post
+title: 38 is their number
+---
+
+The number in the post title refers to the total number of exams in my academic education. Today I took my last - in _sociology_ - and passed it.
+
+Ever since I came back from my <a title="photos from turkey" href="http://flickr.com/photos/manastasov/collections/72157607337574126/" target="_blank">long</a> <a title="photos from georgia" href="http://flickr.com/photos/manastasov/collections/72157607337613508/" target="_blank">trip</a>, it's been left hanging as something I should be doing instead of $X. I first opened the book somewhere in October I think, missed a couple of examination dates, and only last week really began to prepare myself, as another exam date was approaching.
+
+Somewhere along the way I realized what it essentially takes for effective studying: *to not care about anything else*. Forget about that one or three projects that you're doing, the books you want to read or whatever else you might want to do while at home instead. All that should matter is that thing your university gave you to do. If your mind meanders a lot to other ideas and activities that otherwise move you, you will not get much done, or at least not as well as you would fully dedicated.
+
+It's so obvious but once you grow up and cross that line it's hard to go back if you need to. I came quite close to that state of mind in the past week, hence the success.
+
+It was exactly around 2006 when I was well ahead with educating myself with programming for Linux desktop, working on <a href="http://usbsink.sourceforge.net/" target="_blank">USBSink</a> and first contributions to <a href="http://www.gtkmm.org/" target="_blank">gtkmm</a>, when my grades began to be kind of arbitrary. By the time (this summer) a year at the local <a href="http://www.micronasnit.com" target="_blank">Micronas</a> branch was over - where I was occasionally scripting tests for an audio processor in Visual Basic on the <a href="http://ap.com/" target="_blank">AudioPrecision</a> platform, paid in grades which the professors, who otherwise work there, would pass on to the university - I've become so detached from school that at times I was getting seriously worried if I'd ever finish what's left and graduate.
+
+Now I need to try to keep that spirit around and really begin (and finish in a reasonable timeframe) my master's thesis work.

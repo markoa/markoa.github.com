@@ -1,0 +1,6 @@
+---
+layout: post
+title: "Tumblefile 1.2"
+---
+
+<a href="http://github.com/markoa/tumblefile">Tumblefile</a>, my automatic, chronological file organizer for Linux just got updated. The main news is that you can run it minimized automatically on desktop startup. And, thanks to the awesome Gnome translators, is also available in Danish, German, Low German, Brazilian Portuguese and Swedish language. The <a href="http://cloud.github.com/downloads/markoa/tumblefile/tumblefile-1.2.tar.gz">tarball</a> is all yours.

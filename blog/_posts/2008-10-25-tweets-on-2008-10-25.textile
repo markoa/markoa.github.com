@@ -1,0 +1,10 @@
+---
+layout: post
+title: Tweets on 2008-10-25
+---
+
+<ul class="aktt_tweet_digest">
+	<li>Off to the book fair <a href="http://tinyurl.com/5vwadz" rel="nofollow">http://tinyurl.com/5vwadz</a> <a href="http://twitter.com/markoa/statuses/974701278">#</a></li>
+	<li>There must've been 50k people on the Belgrade Book Fair today... <a href="http://twitter.com/markoa/statuses/975285299">#</a></li>
+	<li>Although I bought a few, my interest in novels is declining a lot. All I want to read now are real ideas, economics, and science in general. <a href="http://twitter.com/markoa/statuses/975297801">#</a></li>
+</ul>

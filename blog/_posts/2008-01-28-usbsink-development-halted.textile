@@ -1,0 +1,17 @@
+---
+layout: post
+title: USBSink development halted
+---
+
+There are just too many other things that I would like to spend my time on. So I wrote this announcement about ten days ago, which I have just posted on the usbsink mailing list:
+
+bq. 
+This is to annouce that the development of USBSink is now halted.
+
+It has reached the modest goals which I set when I was starting the project; then there are many small reasons leading to a general lack of time. But really the bottom line is that I have lost interest in it, and thus have not been doing any significant work for a while.
+
+I can accept to commit patches which could come along in order to keep the program in a buildable state. OTOH, if there is anybody interested in picking up the project, please let me know. In any case, it is free software.
+
+In the future (free time) I will continue to work on other projects. At the moment, PaperBox is the most interesting one from a free desktop user's point of view. Some other day it might be something else.
+
+I would like to thank everyone for downloading, trying and talking about USBSink so far. I know that it has helped some people out there and it has been an important experience for me.

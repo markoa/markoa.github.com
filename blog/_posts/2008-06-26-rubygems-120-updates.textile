@@ -1,0 +1,11 @@
+---
+layout: post
+title: RubyGems 1.2.0 updates
+---
+
+Finally there are <a href="http://groups.google.com/group/comp.lang.ruby/browse_thread/thread/a099102646ecd275?hl=en">no more bulk updates</a> run every time. On Ubuntu Hardy though, as it's been <a href="http://rubyforge.org/tracker/index.php?func=detail&aid=20775&group_id=126&atid=575">reported</a> already, I had to run
+
+@sudo gem install rubygems-update
+sudo update_rubygems
+@
+instead of @gem update --system@.

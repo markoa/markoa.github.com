@@ -1,0 +1,42 @@
+---
+layout: post
+title: A GNOME document browser
+---
+
+Here I will lay out an idea I've had in my head for a while, about a program for browsing and organizing documents with categories and tags, which retrieves and stores metadata in <a href="http://www.gnome.org/projects/tracker">Tracker</a>. My intention is to propose it in a few weeks as a Summer of Code project. However, since it attempts to change things on the desktop a little bit, I'd like to first hear opinions from the GNOME community and developers about the idea in general (and in specifics).
+
+*Introducing...*
+
+The idea is to provide make a step forward in the way a user views and organizes her documents, and provide a way which is more natural to our minds than the generic file/directory view. For example, when locating a certain document, a user would not need to recall one of numerous file paths, but would follow a map of terms she defined in easily understandable words and expressions.
+
+Currently this is possible using metadata, and Tracker specifically. While one may argue that it is possible to achieve this effect by having some default desktop-wide places, ie bookmarked directories, and then having the user name and structure files and directories with discipline, this is simply put not good enough, and things could be better. For instance, if you have a document's title, it's file path doesn't really matter. Actually, even that it is a file (as if a "file" is something real anyway) stored in a certain directory would not necessarily need to be known! And tags are already a proven method for categorizing data, used and well understood by a large number of people on the Internet.
+
+So note that this program would not offer some huge functionality, lots of options to "explore" etc; it serves the aim to bring the computer desktop a bit closer to our perception of the world.
+
+Here's an initial mockup:
+
+<a href="http://dl.dropbox.com/u/830772/Images/blog/d-mockup.png"><img src="http://dl.dropbox.com/u/830772/Images/blog/d-mockup.png" alt="Initial mockup" width="150" height="150" /></a>
+
+The main means of organizing and browsing data are user defined categories and tags.
+
+*Categories*
+
+A category is defined with:
+
+<ul>
+	<li> An emblem, <a href="http://www.freedesktop.org/wiki/Standards_2fdesktop_2demblem_2dspec">as proposed at f.d.o.</a>, which includes a tag and an associated icon,</li>
+
+	<li> A number of tags which all contained documents should have, and</li>
+
+	<li> A number of parameters, which shape the category.</li>
+</ul>
+
+Parameters may include a list of MIME types to consider, and a combination of <a href="http://freedesktop.org/wiki/Standards/shared-filemetadata-spec">generic file and document metadata</a>. A category making dialog should provide an easy way to specify them. For example, it could offer ready combo boxes, similar to the original Gnome file search dialog. The data entered would then serve to store RDF queries, which the program runs on demand.
+
+A category may contain other categories. Browsing a category would activate a "tag cloud" showing all tags attached to the documents inside it. Selecting a document would update a lower tile showing relevant metadata. This tile would be customizable, and it would replace the current approach in file managers of showing a number of columns which, in my experience, never fit on the screen. So there would be only one column; it's probably best for it to display file names by default, however it could be customizable for each category and it would be natural to expect a move towards displaying document titles.
+
+*!(Nautilus integration)*
+
+Here's why I think this should _not_ be integrated in Nautilus. First of all, Nautilus is a general purpose file browser. The functionality proposed here offers a higher level abstraction in HCI, and does not intend to cover all file types, but instead focuses solely on documents. Adding it as a new kind of a "view" in Nautilus would lead to a requirement to cover music, video and images as well. This is not the point. There are already many good media players and photo/image browsers. They should take care of that (or their) part of, strictly speaking, file and MIME type-specific management and presentation. One could say that there could be separate "views". Yes, but not bundled in a single program. And lastly, Tracker is still not an official GNOME dependancy.
+
+This is of course not to say that Nautilus should not have it's own metadata tile and tagging mechanism, which is happily <a href="http://njpatel.blogspot.com/2007/03/hi-pgo.html">already under development</a>.

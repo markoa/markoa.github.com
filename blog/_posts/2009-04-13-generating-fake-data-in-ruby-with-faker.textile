@@ -1,0 +1,24 @@
+---
+layout: post
+title: Generating fake data in Ruby with Faker
+---
+
+Let me quickly point out the usefulness of <a href="http://faker.rubyforge.org/">Faker</a>, a Ruby fake data generator, for testing, benchmarking or space-filling purposes. The original idea comes from <a href="http://search.cpan.org/~jasonk/Data-Faker-0.07/lib/Data/Faker.pm">Data::Faker</a>, and it is essentially a randomizer of words, numbers and formats. It generates names, text, emails, domain names, addresses, even company catch phrases:
+
+<pre>
+<code>
+irb(main):041:0> Faker::Company.catch_phrase
+=> "Enterprise-wide zero defect task-force"
+</code>
+</pre>
+
+So it can be used like
+
+<pre>
+<code>
+data = []
+100.times do |i|
+  data << [Faker::Internet.email, Faker::Name.name, Faker::Address.street_name]
+end
+</code>
+</pre>

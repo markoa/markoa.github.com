@@ -1,0 +1,10 @@
+---
+layout: post
+title: My first git-svn
+---
+
+My goal was to set up a local git repository for some experiments I plan to do with Paperbox, whose code is hosted on Gnome SVN. It's very easy to do, *man git-svn* tells you everything (such things couldn't happen two years ago):
+
+<script src="http://gist.github.com/271398.js?file=git-svn-commands.txt"></script>
+
+I also checked live.gnome.org, and the <a href="http://live.gnome.org/GitForGnomeDevelopers" target="_blank">GitForGnomeDevelopers</a> page tells me about the @--squash@ option for git-merge. It seems that it should be used when merging local development branches to master after master got some changes committed in the meantime to SVN HEAD.

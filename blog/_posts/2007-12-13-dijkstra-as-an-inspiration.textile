@@ -1,0 +1,6 @@
+---
+layout: post
+title: Dijkstra as an inspiration
+---
+
+I have found on YouTube a video titled ‘<a href="http://www.youtube.com/watch?v=EL97C8C53ZM">Discipline in thought</a>’, a 25-minute documentary and interview with <a href="http://en.wikipedia.org/wiki/Edsger_Dijkstra">Edsger Dijkstra</a>, shot by a dutch television. Later I found out that there is a full mpg on <a href="http://www.cs.utexas.edu/users/EWD/welcome.html">his web site</a> as well, where you can find more EWDs to read. It was a real pleasure to watch and I sincerely recommend it. I rather wouldn’t comment, as I believe it would be superfluous. For me it’s very inspiring, and it has confirmed and expanded some of my own thoughts about computer programming.

@@ -1,0 +1,6 @@
+---
+layout: post
+title: Callbacks in jQuery ui.sortable 1.5.3
+---
+
+...<a href="http://www.nabble.com/start-call-back-issue-in-ui.sortable-td21414281s27240.html" target="_self">are not working</a>. Better not waste too much time like me figuring out what's wrong, and upgrade to current unstable release (currently <a href="http://jquery-ui.googlecode.com/files/jquery.ui-1.6rc6.zip">1.6rc6</a>).

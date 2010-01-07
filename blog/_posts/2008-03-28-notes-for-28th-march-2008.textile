@@ -1,0 +1,10 @@
+---
+layout: post
+title: Notes for 28th March 2008
+---
+
+Migrated to a new host, upgraded to WordPress 2.3.3, took advantage of the availability of post categories together with tags.
+
+The correct procedure of upgrading the blog was to export the old database to an SQL file, create a new database and database user on a new server, copy WordPress files, import the old DB, then go to the WP upgrade (not install) page, which upgraded the DB to a new format.
+
+After <a href="http://github.com/">github</a> earlier, today I discovered <a href="http://gitorious.org/">gitorious</a>, another place to host open source projects with <a href="http://git.or.cz/">git</a> for version control. Note that there's <a href="http://www.assembla.com/">Assembla</a> as well, providing excellent <a href="http://trac.edgewall.org/">Trac</a> + <a href="http://www.selenic.com/mercurial/wiki/">Mercurial</a> infrastructure.

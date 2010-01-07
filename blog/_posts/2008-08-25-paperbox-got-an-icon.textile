@@ -1,0 +1,10 @@
+---
+layout: post
+title: Paperbox got an icon
+---
+
+While I was away, <a href="http://cubestuff.wordpress.com/2008/08/09/paperbox-goes-tango/">Jakub Szypulka designed a Tango-style icon for Paperbox</a>. Thanks so much! It's in svn now and will be in use as of the next release.
+
+<img src='http://marko.anastasov.name/images/paperbox-gallery.png' alt='' class='alignnone' />
+
+In other news, I listed a few features that should be in the next release, in the 0.4 roadmap on the <a href="http://live.gnome.org/PaperBox">project wiki page</a>.

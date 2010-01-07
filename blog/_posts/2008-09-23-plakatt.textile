@@ -1,0 +1,10 @@
+---
+layout: post
+title: Plakatt
+---
+
+<a href="http://plakatt.com">*Plakatt*</a> is a web site that my friend <a href="http://twitter.com/darko_fabijan">Darko Fabijan</a> and I have been working on in fractions of our spare time since last winter. In November we formulated the idea, decided that we're going to build it with <a href="http://rubyonrails.com/">Ruby on Rails</a>,  printed <a href="http://pragprog.com/titles/rails3/agile-web-development-with-rails-third-edition">the book</a>, and dived in a - for us - new world of web development.
+
+So what _is_ the idea anyway? The focus is on real life events and their locations. (In large parts of the world) there is so much more going on than we can possibly find out about on our own. We believe that the web needs an open, clean web site for everyone to write about whatever event that they think other people should know about, whether it's a concert, conference, debate, open party or an art exhibition. Our goal is to focus on information and leverage widespread web platforms for multimedia and knowledge. For example, we display people's videos from YouTube because we could not possibly handle video better then them and it is not our thing to do.
+
+So far only some of our friends have known about the site; the first private version went live in July, a few days before <a href="http://www.marko.anastasov.name/blog/2008/08/24/back-home/">my long trip</a>. But now we've reached some important milestones, and now it's really important to finally improve the site look and usability with the help of a professional designer. Hopefully soon we'll not be the only active members there! We've set up a <a href="http://plakatt.wordpress.com">blog</a> where we post about site development and status.

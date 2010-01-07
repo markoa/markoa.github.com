@@ -1,0 +1,24 @@
+---
+layout: post
+title: Hardware and software integration in Ubuntu
+---
+
+This post is the second part of a two-part series (see <a href="http://www.marko.anastasov.name/blog/2009/11/13/linux-desktop-software-that-i-use/">previous one on software</a>) where I try to summarize my current experience with the (Gnome) Linux desktop purely as a user. It highlights what I've been seeing with Ubuntu series 8.x and 9.x, in most part with my current <a href="http://www.marko.anastasov.name/blog/2009/01/31/my-shiny-new-satellite-a300-1n8/">Toshiba laptop</a>.
+
+h3. The good
+
+These features include those that make me happy when I see them in action. It does not mean however that they're the only good things - it means that the rest of the stuff that just works I consider essential and can't remember.
+
+* *Out of the box printer and scanner support.* At least for HP products, I can just plug in the USB connector and be set.
+* *SD card hotplugging.* Basically this means that thanks to HAL / GVFS I don't need to use an USB cable to manage my photos, I can just plug the card in my laptop's reader and immediately see all the files.
+* *Dual screen mode.* It works well but see the point about monitor hotplugging below.
+* *Suspend to RAM.* Before Ubuntu 9.10, not having a working suspend to RAM feature was very frustrating. Fortunately this is fixed now, and it made a big difference to me.
+
+h3. The bad
+
+* *Short battery life.* Even if I just browse the web and write notes it's still limited to only 1.5h.
+* *Wireless connection glitches.* In the past I have seen issues with NetworkManager, such as  secure wireless connection  reset  after some hours. Also I was at a conference recently, and there was a kind of a 802.1x setup that I could not connect to and was thus in dark unlike people with MacBooks.
+* *Monitor hotplugging.* In order to use an external monitor in an expected resolution and color gamma I need to plug it in before X loads, then go to Display Preferences and try to set it up, which is not really hotplugging. I've tried a couple of monitors with same results. With a larger monitor (24') I could not get the right resolution at all. GDM is always in the wrong resolution when an external monitor is on.
+* *Graphic card driver instabilty.* It was very annoying to run the defective driver for my i945 chipset which went in the stable release of Ubuntu 9.04. It caused X to leak memory, making the window manager unusable within half a day and requiring a restart. A fix shipped a couple of months later.
+* *Microphone madness.* <a href="http://www.murrayc.com/blog/permalink/2008/03/19/getting-my-microphone-to-work/">Murray wrote about it</a> some time ago, and the situation is the same with PulseAudio. As an effect I cannot get Skype video conferencing to work, for example. Or even record audio; with every new version of a distro I always re-try and get tired after ten minutes.
+* *Slow file transfers.* Copying files between the hard disk and SD card or USB flash drive in average is limited to 1.x MB/s. See <a href="http://www.marco.org/256553284">this</a> for comparison.

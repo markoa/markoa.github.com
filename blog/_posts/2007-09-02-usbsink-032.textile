@@ -1,0 +1,10 @@
+---
+layout: post
+title: USBSink 0.3.2
+---
+
+<a href="http://mail.gnome.org/archives/gnome-announce-list/2007-September/msg00000.html">Yesterday</a> I released <a href="http://usbsink.sourceforge.net">USBSink</a> 0.3.2. You can either <a href="https://sourceforge.net/project/showfiles.php?group_id=141363&package_id=155096&release_id=536517">download the source</a>, or wait for your distro's package  update (or request a package if it's not available yet!).
+
+It has been quite a while since last release, mostly due to lots of work I had to do at university and later my <a href="http://www.keenresearch.com/">internship</a>. Still, some interesting changes have been accumulated, such as an important fix for a bug that would cause the program to segfault when a drive gets removed without prior unmounting, awareness of removable drives on SCSI, ability to run the program at desktop startup etc. A complete list is in the announcement and NEWS file.
+
+More to come!

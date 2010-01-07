@@ -1,0 +1,14 @@
+---
+layout: post
+title: Bugzilla module for PaperBox ready
+---
+
+If you have been wishing to report a bug for <a href="http://live.gnome.org/PaperBox">PaperBox</a>, <a href="http://bugzilla.gnome.org/enter_bug.cgi?product=paperbox">that is now possible</a> as a module in Gnome bugzilla was created yesterday.
+
+Normally something like this is not for a blog post but since it has been more than a month since I’ve requested it, it feels like an important event. This clearly represents a problem for the Gnome project, especially at this time when the whole concept of the computer desktop as we know it is being questioned – for good reasons. In my opinion it should be extremely easy for developers (people with svn accounts) to start new projects - under a common flag, not spread across numerous project hosting sites. Over time, some of these projects would hopefully turn out to be successful ideas, and a foundation for the future.
+
+So ways (more people) should be found to provide to instantly provide the developers a complete project infrastructure, not just a svn module. Actually, like many, I now prefer a DSCM tool like hg or git, but that’s slightly off-topic now.
+
+In other news, there is now a PaperBox <a href="http://aur.archlinux.org/packages.php?do_Details=1&ID=14247&O=0&L=&C=&K=&SB=&SO=&PP=&do_MyPackages=1&do_Orphans=&SeB=">package for Arch Linux users</a>, thanks to Michele.
+
+And a new theme for my blog, much more pleasant for eyes then a white background, which to me now feels almost like staring at a light bulb. It does feel relaxing to switch to a dark background and an appropriate font color. In fact, I’ve been keeping my gnome-terminal and Emacs like that for a few years.

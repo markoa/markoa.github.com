@@ -1,0 +1,9 @@
+---
+layout: post
+title: Using Tomboy as a reminder
+---
+
+Yesterday I thought how it would be nice to write down a Tomboy note, and have it pop up periodically or at a given time to remind me to do something. (<a href="http://projects.gnome.org/tomboy/" target="_blank">Tomboy</a> is a great note taking app for Gnome with just-enough text formatting.) Something like this has become a necessity for me - a calendar app still feels like too much "paperwork". Looking around how to write such a plugin myself, I saw that it has been already implemented long time ago - it's called <a href="http://flukkost.nu/blog/tomboy-reminder/" target="_blank">Tomboy Reminder</a> and works by recognizing various forms of date and/or time input:
+
+<a href="http://dl.dropbox.com/u/830772/Images/blog/tomboy-reminder.png"><img
+title="tomboy-reminder" src="http://dl.dropbox.com/u/830772/Images/blog/tomboy-reminder.png" alt="tomboy-reminder" width="200" height="150" /></a>

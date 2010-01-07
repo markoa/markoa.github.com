@@ -1,0 +1,18 @@
+---
+layout: post
+title: Writing a tag cloud widget with GooCanvas
+---
+
+Building a tag cloud for desktop applications is significantly harder than doing it for the web with HTML and CSS. I've seen <a href="http://njpatel.blogspot.com/2007/03/updates.html">one screenshot</a> so far, but no code alive yet. As I'll need one for a new project I'm starting, I wrote a demo of what it would look like using <a href="http://sourceforge.net/projects/goocanvas">GooCanvas</a>. As the tags should basically be randomly-reorderable, interactive and separate text entities, the only way that I see this doable is with a canvas.
+
+<a href="http://dl.dropbox.com/u/830772/Images/blog/2007-09-19-222938_432x252_scrot.png"><img src="http://dl.dropbox.com/u/830772/Images/blog/2007-09-19-222938_432x252_scrot.png" alt="GTK+ tag cloud widget demo screenshot" width="180" height="100" /></a>
+
+The main thing to realize here when mapping data to visual features - and I've decided that there is only one variable visual feature, font size proportional to word occurrences - is that the font sizes should be distributed within a certain range based on a logarithmic measure. This way the cloud will look nice and as seen on popular web sites, with a wide variety of fonts distributed in a fair way.
+
+The GTK+ widget that I'm presenting here is probably not polished enough to just cut-and-paste it in your application. For example, in the demo the canvas size gets adjusted to the allocated visible area in the scrolled window at creation time, but does not do any reordering of the words when the window and widget itself get resized. However, I think that it will not be too difficult to add that as most of the work is already done.
+
+You can download the code from <a href="http://marko.anastasov.name/code/tag-cloud-cc.tar.gz">here</a>. I wrote it in C++, with <a href="http://www.gtkmm.org">gtkmm</a>, and to compile everything you need to execute:
+
+@g++ -g -O0 -Wall `pkg-config --libs --cflags gtkmm-2.4 goocanvas` -o tag-cloud-demo tag-cloud.cc tag-cloud-model.cc test-window.cc main.cc@
+
+I've used goocanvas 0.9, which is not yet in most distros ATM I think. It should be in Gutsy though, for instance. Perhaps 0.6 will work too, although I haven't tried it myself.

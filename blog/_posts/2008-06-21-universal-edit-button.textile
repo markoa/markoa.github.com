@@ -1,0 +1,8 @@
+---
+layout: post
+title: Universal edit button
+---
+
+The <a href="http://universaleditbutton.org/Universal_Edit_Button">universal edit button</a> <img src='http://c2.com/wiki.png' alt='' class='alignnone' /> seems like a very good idea, to show this icon in the location bar whenever you can edit the page and contribute to the content.
+
+At the moment there's a <a href="http://universaleditbutton.org/Firefox">Firefox extension</a>, which unfortunately <a href="http://universaleditbutton.org/Bugs">won't work</a> if you have version 3 with the deli.cio.us one already installed and enabled. A hack could <a href="http://universaleditbutton.org/Internet_Explorer">make it work on IE too</a>. The number of <a href="http://universaleditbutton.org/Universal_Edit_Button#Sites_with_Universal_Editing_Button">sites</a> implementing the <a href="http://universaleditbutton.org/Add_The_Link">required functionality</a> is impressive already.

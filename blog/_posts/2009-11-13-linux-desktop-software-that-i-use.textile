@@ -1,0 +1,93 @@
+---
+layout: post
+title: Linux desktop software that I use
+---
+
+h3. Intro
+
+Lately I've often been thinking about and analyzing my usage of computers. I've decided to try to introspect myself, my needs, wishes and workflow. It is because of a certain degree of unhappiness that I am motivated do this, so I suppose that most words will be criticism. I will try to highlight the things that work well for me too though.
+
+In this post I will verbosely list all pieces of software that I use, grouped in lists of how often, and write down some thoughts that I have about each of them. Another blog post will cover my experiences with how software fits with the hardware.
+
+h3. The setup
+
+I have a big desktop at home and a <a
+href="../2009/01/31/my-shiny-new-satellite-a300-1n8/">laptop</a> that I use in the office and work generally. The laptop has about 90% percent of the time share, although the hard disk at home holds my large photo, music, movie and ebook archives. On both I run the <a href="http://www.ubuntu.com/">Ubuntu</a> Linux distribution with <a href="http://www.gnome.org/">Gnome</a> desktop. It has been my OS of choice for years now, and I've spent quite some of my free time contributing to that platform (my <a href="/about">about page</a> sums it up).  
+
+I've begun to feel uneasy about the fact that my files are usually scattered between these two computers. The setup that I'd like to eventually have is a laptop + a portable external drive with large capacity. Any additional computer in that case should not contain any unique files that are useful. This requires some time to obtain the external drive, clean up the desktop PC, and some discipline to actually carry the laptop back home on most of the days. Sounds relatively easy, but I'm not even trying yet.
+
+h3. The perspective
+
+My perspective has changed significantly in the last year or so. Previously I was a student or an intern, while now I run a <a href="http://renderedtext.com">company</a> and have a <a href="http://plakatt.com">startup</a> going with friends/colleagues. It is the things that involve being a registered entrepreneur in the tax system and the development (and planning, marketing etc) of Plakatt that use most of my free time that I would previously use to contribute to and/or develop open source desktop software. The rest goes to random discoveries and constant exploration and hacking in the world or Ruby and Rails that is so fascinating and fast-moving today, both for my personal pleasure and because it is essential to the work that I do.
+
+As a result, most of the time I do not approach the OS with the subconsciousness of a desktop hacker who could theoretically improve every piece of software by himself, or spend whatever time it takes to get something working because that time is available, or even quietly ignore the things that perhaps do not work at all. Rather I find myself becoming more of a cold observer, let's say, when it comes to using the software. The desktop hacker attitude does remain however, as I often get new ideas of what I'd improve about or how I would implement something new - all of which remain just ideas lacking the time to be realised.
+
+h3. Every day
+
+These are the desktop applications that I currently use every day and rely upon.
+
+* *Nautilus* - decent file manager loosely modeled after Windows Explorer and such. It is able to render nice thumbnails in different sizes, and lets me apply emblems to special files. Recent addition of tabs made browsing and copying files much easier. The file metadata that it can display is most basic. I wish it integrated tagging and user defined metadata long time ago. Also I loathe the concept of right clicking to do anything other than opening the file with a default application. I'd love to see a file browser which emits D-Bus signals to a contextual desktop-wide dock-style action toolbar.
+* *Terminal* - gnome-terminal does the job. Sometimes I miss search though.
+* *Vim* - my editor of choice.
+* *GEdit* - I'm not a nerd enough to use NERDTree to browse unknown code. Also for quick edits.
+* *Gnome Do* - for quickly opening Nautilus in a certain directory without using the mouse, launching applications, creating new notes, managing session, launching bookmarked web sites. Essential in my workflow, as it lets me do more with just the keyboard. Totally inspired by Quicksilver for Mac.
+* *Dropbox* - many people say it's great, and I agree. It lets me share files with friends, sync directories between the two computers and make backup. Integrates well with Nautilus, eg I can right click and copy the file URL.
+* *Tomboy* - for note taking. It's the most convenient way of typing and storing random stuff because notes are not files and I can launch it with three keystrokes.
+* *Web browser* - I use Firefox for development, Chromium for browsing and sometimes Epiphany as a single window to Campfire (to keep it in totally separate process & window). Firefox is visibly slower on Linux than on Windows or OSX, especially the JavaScript engine. As a friend once commented, "as if you're running a Pentium II with 256MB of RAM". Chromium is a development daily build, doesn't use native widgets and doesn't include development tools at the moment. But for browsing and Google apps it works much smoother than Firefox. Also it is more difficult to have the latest Firefox on a Linux desktop due to how packaging works and its policies. Firefox 3 that is available in Ubuntu Jaunty gets only 72/100 on <a href="http://acid3.acidtests.org/">Acid3 test</a>, while Chromium is at 100/100.
+* *Archive manager*
+* *Evince* - for reading PDFs. Works well but it usually cannot display fonts or print the document the way it's supposed to look like, so when I need to print a longer document or a book, I boot Windows through VMWare and print from Adobe Reader.
+* *Transmission* - awesome BitTorrent client.
+* *Banshee* - for playing music. Can't say that it's also for managing it because I often need to clean up by hand. It has a nice interface to Last.fm radio that I unfortunately cannot connect to any more, except for the related artists part. Also I am subscribed to a podcast or two and it keeps me well in sync however I just don't have time for that. The app is modelled after iTunes. It is actually a prime example of how traditional GUI toolkits are limiting, since there is no concept of canvas. It is very expensive to create a complex window, and almost nobody dares to create and switch between more than one, so all functionality needs to fit in a single window cluttered with widgets and a couple of dialogs. The Banshee main window looks a bit like Visual Studio, as it needs to make space for me to browse by album, artist, view the playlist, see related artists and the actual player controls. With those constraints, it does the job quite well.
+* *Tumblefile* - my <a href="http://www.marko.anastasov.name/blog/2009/07/25/tumblefile-1-0/">chronological file organiser</a>. Keeps my Desktop clean, encourages me to drop random stuff on it from the browser and keep a sort of a journal without thinking how.
+* *gitk* - for graphically viewing git history. Sometimes I launch *Giggle* instead because I cannot copy text from gitk (it's a Tcl app) and it doesn't visualize all ongoing branches.
+
+*The invisible:*
+
+* *X11* - I'm always amazed by its age and durability. Sometimes randomly boots into a wrong resolution, and I have to log out and in again to get the right one.
+* *Compiz* - even though I also thought that a rotating cube was cool when it came out, I'm glad that the experimental phase is now finished and that the window manager comes with just enough effects to make the desktop appear more lively and pleasant.
+* *Flash* - I use a 64-bit system so sometimes (in about 5% of the time) it just stops working at some point. And the combined CPU usage always goes up to the half. Otherwise having Adobe make at least a beta 64-bit plugin was great news.
+
+h3. Regularly
+
+These are the applications that I also rely on, just not really every day.
+
+* *Screenshot saver* - I often need to Alt+Print Screen, copy the image to clipboard, launch GIMP with Gnome Do, paste the image, crop, perhaps annotate and save it to Dropbox.
+* *GIMP* - also for processing my photos. I've collected some nice filters, such as those that apply vintage or lomo looks. I enjoy doing that, trying different parameters, converting to black and white etc.
+* *Postr* - A simple Flickr uploader. I drag photos from Nautilus into its custom list view and enter titles, tags and descriptions. Once the photos are uploaded, this metadata is not saved anywhere.
+* *gThumb* - I cannot use F-Spot because it loads the images visibly slower than it should. Also I like to sort the photos manually in directories that begin with a timestamp and a simplest possible browsing view. gThumb plays nice, it's like a specialized file browser and has some quick editing tools such as those for changing contrast or color balance. But most often I actually tend to open the photos with the Eye of Gnome preview application from Nautilus. Then when I realize that I'm browsing for more than a minute, I launch gThumb, because it loads images faster than EOG. I wish that there was no photo management application at all, that it all goes from the file browser with thumbnail view, opening in an image viewer which lets me add tags and description in addition to viewing EXIF data, and keep those in sync with Flickr.
+* *gftp* - this website is (still) on a shared host, and I update it the 90s way.
+* *VMware* - I need windows for ebanking and correct printing. I used to have an iPhone so I needed it to sync its music library too. This was rather painful, as I'd need to copy the desired music on a USB flash, copy it into the virtual machine, import in iTunes before finally syncing to iPhone.
+* *mplayer* / *Totem* - Sometimes Totem can't open files mplayer can, and can never handle subtitles of DivX kind of movies. Also from command line I always launch mplayer. In fact, I'm not sure why I keep Totem at all.
+* *Brasero* - for burning audio CDs. Good enough, although it <a href="https://bugs.launchpad.net/ubuntu/+source/brasero/+bug/374101">can't normalize tracks</a> in the last six months.
+* *Hamster* - for time tracking. Not my thing, however one client job that we have at the moment requires it. It is the only applet that I use.
+* *Dictionary* - although Google almost always has a better answer. This one favors references from circa 1932, but gets me going most of the times, with minimal distracting effort.
+* *OpenOffice Writer* - I write my invoices in it, using 1% of its features. Used to the simplicity of web apps, I dislike its clutter and "clever" behaviour which rarely does what I want.
+* *XSane* - the scanning GUI. It's terribly archaic, although it does work well. Needs a much simpler alternative; it makes me want to be done with it as quickly as possible.
+* *Crunchyfrog* - for viewing and querying local databases. A nice and simple GTK+ interface. Great help. It can connect to various DB engines.
+* *Calculator*
+
+h3. Rarely
+
+* *Cheese* - the webcam app. Once I made a picture of a rainbow outside and an avatar for myself with it. Thought I'd use it with Skype, however that's not happenning since my mic doesn't work with it.
+* *DeVeDe* - there was a period when I would download a video, then convert and burn it on a DVD with DeVeDe. It does this very well. Currently I'm in a period when I don't watch movies at all.
+* *Skype* - Since I couldn't get my mic to work, I wasn't able to do any video conferencing, however I did use it for chat. These days I stay away from IM.
+* *XChat* - IRC client. Before I used to hang out on #gimpnet a lot, these days I don't.
+* *Sound converter* - when I need to convert between FLAC, Ogg and MP3. I can't be bothered recently though.
+* *gtk-recordmydesktop* - I've made a couple of screencasts with it. I think I used fffmpeg to convert Theora to MPEG.
+* *Inkscape* - for quick vector drawing sketches. There was a time when I fantasized that I'll learn to draw vector graphics; I still know a few tricks from tutorials.
+* *OpenOffice Presentation* - for the rare situations when I need to read somebody's "raw" presentation file.
+
+h3. I'd use it, but it's not good enough
+
+* *Unified Tracker search + tagging* - Three years after <a href="http://mail.gnome.org/archives/desktop-devel-list/2006-October/thread.html">initial discussions</a>, it is <a href="http://mail.gnome.org/archives/desktop-devel-list/2009-November/thread.html">still unclear</a> where Tracker stands in Gnome. Tracker search tool and <a href="http://www.marko.anastasov.name/blog/tag/paperbox/">Paperbox</a> are the about the only applications that show tags, and they need to be rewritten for Tracker 0.7, which is a completely redesigned platform. t-s-t was a hack of the old Gnome search dialog, and I never felt comfortable using it. Perhaps one day we'll be able to add tags, define relationships between files and quickly access these sets from wherever on the desktop, so that such experiments (including my Paperbox) become obsolete.
+* *Google Earth* - there is a Linux binary but its main window flickers all the time.
+* *PulseAudio preferences + device chooser* - I've never learned much about the audio software stack on Linux but whatever the rationale was for making PulseAudio, in my experience nothing has really changed: any sound preference dialog has a list of "devices" about 2.5x longer than the actual number of my hardware devices, and it is not possible to set up a microphone (if you do not give yourself more than twenty minutes for this task at least).
+* *Character map* - I don't know why it doesn't list all the cool Unicode characters in any of its maps. I need to go to <a href="http://copypastecharacter.com">copypastecharacter.com</a> instead.
+* *Gwibber* - the idea is great, to make a hybrid Twitter / Flickr / Facebook... client for Gnome. I like the fact that eg I can see photos from my Flickr contacts in the same stream as Twitter updates. However the tools to post to Twitter let's say are barely minimal, it doesn't keep any history and is often unable to actually fetch the updates.
+* *Sound recorder* - due to mic problems I mentioned above. I don't know which application I'd actually use for this; perhaps Audacity.
+* *Feed reader* - I use Google Reader but I'd like to use a native reader for less important sources, such as various news and photography feeds, because scanning, reading and filtering those would be quicker. It should also be able to let me choose whether to tell me how many unread items I have - I'm subscribed to a lot of stuff and usually have hundreds of unread items, most of which belong to that less important category which I don't need to follow post per post. Liferea is... not ok, and the rest are even worse. Getting the right GUI for this is most important and difficult to achieve.
+* *All in one password keychain* - it would be nice if Seahorse was aware of all my browser passwords, and accepted random key-value input such as my banking credentials.
+
+h3. It is hard to make a fully functional open source desktop
+
+As people do more on the web, a desktop does not need to provide many applications. Apple, by controlling both the hardware and software stack, is able to keep its users happy because these basic applications that they're in charge of are really good. Open source desktop, without more people working full time on it, will likely always be a few steps behind. Is it too hard?

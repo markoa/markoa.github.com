@@ -1,0 +1,10 @@
+---
+layout: post
+title: Tweets on 2008-10-28
+---
+
+<ul class="aktt_tweet_digest">
+	<li>@<a href="http://twitter.com/senkorasic">senkorasic</a> Right-click on one, Close other tabs? <a href="http://twitter.com/senkorasic/statuses/978115866">in reply to senkorasic</a> <a href="http://twitter.com/markoa/statuses/978124307">#</a></li>
+	<li>Plakatt should now be valid xhtml ... at least on some pages. Will need to self-enforce some automatic discipline there. Feed totally ok. <a href="http://twitter.com/markoa/statuses/978128268">#</a></li>
+	<li>Really pleased with VMWare Workstation, great piece of software. <a href="http://twitter.com/markoa/statuses/978138095">#</a></li>
+</ul>

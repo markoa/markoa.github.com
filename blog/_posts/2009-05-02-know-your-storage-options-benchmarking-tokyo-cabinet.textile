@@ -1,0 +1,21 @@
+---
+layout: post
+title: Know Your Storage Options - Benchmarking Tokyo Cabinet
+---
+
+<a href="http://tokyocabinet.sourceforge.net/index.html">Tokyo Cabinet</a> is what I've been focusing my interest on lately. It is a persistent and fast key-value store, and there is a choice of database engine implementations to use: hash, fixed-length array, <a href="http://en.wikipedia.org/wiki/B%2B_tree">B+ tree</a> with a user specified ordering function and table database, which is based on hash. In-memory of file-based. The table engine is particularly interesting because it acts like a relational database without a schema - you are free to simply insert arbitrary data - with support for indexing and queries. TC is written in C with APIs for Perl, Ruby, Java, and Lua. The author is Mikio Hirabayashi, and Tokyo's largest application is <a href="http://mixi.jp/">mixi.jp</a>, Japan's largest social network.
+
+There is also <a href="http://tokyocabinet.sourceforge.net/tyrantdoc/">Tokyo Tyrant</a>, the accompanying server. Among the rest, it offers thread safe access, supports memcached protocol and asynchronous replication. The spec describes how to run two instances in a master-slave setup, for example.
+
+All the above would not be worth much if it wasn't for the speed - the specification claims Tokyo Cabinet to be able to store one million records in 0.7 seconds for a hash database. I wanted to check that myself, so I wrote a <a href="http://gist.github.com/105314">*script*</a> that compares the performance of ActiveRecord with MySQL backend with the table engine and put it on github. I already saw benchmarks <a href="http://gist.github.com/60709">comparing table to hash et al</a>; in this case I wanted to measure the near equivalents.
+
+For Ruby, there is a choice of using the <a href="http://tokyocabinet.sourceforge.net/rubydoc/">official</a> <a href="http://tokyocabinet.sourceforge.net/tyrantrubydoc/">bindings</a>, which compile to native code, and the <a href="http://github.com/jmettraux/rufus-tokyo/tree">rufus-tokyo</a> gem, which utilizes <a href="http://kenai.com/projects/ruby-ffi">ruby-ffi</a> to dynamically provide a somewhat more Ruby-ish API that's portable across all Ruby implementations. John, author of rufus-tokyo, made some benchmarks and <a href="http://jmettraux.wordpress.com/2009/02/27/rufus-tokyo-018-rufusedo/">wrote a more detailed explanation</a> on his blog. I have used rufus-tokyo's wrapper to the native bindings for file access, and its API for Tyrant.
+
+The <a href="http://gist.github.com/105516">*full results*</a> are available as a gist. Highlights: *Tokyo Cabinet table can be about 300x faster than MySQL on inserts, 20x faster on retrieving all records and roughly equivalent when looking up by foreign key.*
+
+In general, areas where I (today) see Tokyo Cabinet as definitely worth using are persistent cache and often inserted data that can grow in size quickly. The presentation available on the project homepage lists a few more interesting applications like storing images and timestamp database.
+
+Other notable resources:
+
+* <a href="http://www.igvita.com/2009/02/13/tokyo-cabinet-beyond-key-value-store/">Tokyo Cabinet: Beyond Key-Value Store</a>
+* <a href="http://randomfoo.net/2009/04/20/some-notes-on-distributed-key-stores">Some Notes on Distributed Key Stores</a>

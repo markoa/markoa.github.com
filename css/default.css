@@ -1,0 +1,77 @@
+
+/* A font by Jos Buivenga (exljbris) -> www.exljbris.com */
+@font-face {
+    font-family: "Fontin Sans";
+    src: url("/fonts/Fontin_Sans_R_45b.otf");
+}
+
+@font-face {
+    font-family: "Fontin Sans Bold";
+    src: url("/fonts/Fontin_Sans_B_45b.otf");
+}
+
+@font-face {
+    font-family: "Fontin Sans Italic";
+    src: url("/fonts/Fontin_Sans_I_45b.otf");
+}
+
+body {
+    margin: 0 auto;
+    width: 600px;
+    word-wrap: break-aword;
+    font-family: "Fontin Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+strong {
+    font-family: "Fontin Sans Bold", sans-serif bold;
+}
+
+em {
+    font-family: "Fontin Sans Italic", sans-serif italic;
+}
+
+
+a {
+    color: #0063DC;
+    text-decoration: none;
+}
+
+a:hover {
+    /*border-bottom: 1px solid #003372;*/
+    background: #DDF1FA;
+}
+
+.post {
+    margin: 2em 0 2em 0;
+}
+
+.post h1 {
+    line-height: 40px;
+}
+
+.contentLicense {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+pre {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0;
+}
+
+code {
+    font-size: 13px;
+}
+
+.gist .gist-file .gist-meta {
+    font-size: 75% !important;
+}
+
+blockquote {
+    color: gray;
+    border-left: 5px solid #f0f0f0;
+    padding-left: 16px;
+}

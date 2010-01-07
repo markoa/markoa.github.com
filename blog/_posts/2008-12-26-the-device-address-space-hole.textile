@@ -1,0 +1,16 @@
+---
+layout: post
+title: The device address space hole
+---
+
+Lately I've been getting thoughts to set up a few virtual machines on my desktop (I already run Windows XP like that when I must). Eg to play around with <a href="http://kde.org/announcements/announce-4.2-beta2.php" target="_blank">the new KDE desktop</a>, try using one just for <a href="http://live.gnome.org/Jhbuild" target="_blank">jhbuilding</a>... in a word, to partition various chunks of OS activities into separate address spaces.
+
+So I went and bought two more gigs of RAM. <a href="http://twitter.com/markoa/status/1076356217" target="_blank">I was happy</a>. But when I plugged them in on my motherboard and booted, I saw BIOS detecting some 34..... of physical RAM. Gnome system monitor confirmed 3.2 GB being available, and @cat /proc/meminfo@ also said "MemTotal: 3356016 kB". This clearly smelled like something related to 32-bit limitations, but I have a Pentium D processor which is 64-bit and of course run an x86_64 kernel.
+
+What I didn't know is that my <a href="http://www.gigabyte.com.tw/Products/Motherboard/Products_Overview.aspx?ProductID=1960" target="_blank">two year old i945P-based motherboard</a>'s BIOS does the common thing for that time - not knowing which OS it will run on (in other words, assuming it to be the ancient Windows XP in most cases), it is programmed to be 32-bit compatible. The memory controller is in effect 32-bit, while motherboard is designed for (early) 64-bit Intel processors.
+
+4 GB (2^32) of RAM is the maximum amount of memory a 32-bit processor can address. However, this total processor address space consists of physical memory (in RAM modules) and *device address space*. This is where the processor accesses video memory, PCI devices and so on. This must all fit in those 4 GB, and, as <a href="http://techfiles.de/dmelanchthon/files/memory_hole.pdf" target="_blank">this paper from 2004 by Sun</a> puts it:
+
+bq. This will not work because 2 devices can’t occupy the same address space. The only way to resolve this conflict (and retain compatibility) is to allow the device address space to be mapped over the memory causing a “hole” in this address range. The memory for this space can’t be used and can’t be remapped and will not be reported as available memory. This is why you see less available memory.
+
+Some BIOS's from that time seem to have a memory hole remap function; the one I own unfortunately does not.

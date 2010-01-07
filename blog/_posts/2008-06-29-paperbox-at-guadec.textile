@@ -1,0 +1,6 @@
+---
+layout: post
+title: Paperbox at GUADEC
+---
+
+I will be attending this year's <a href="http://2008.guadec.org/">GUADEC</a> in Istanbul, July 7 - 12th, and I'm going to give a <a href="http://guadec.expectnation.com/guadec08/public/schedule/detail/35">lightning talk</a> on 11th. It'll be my second time on GUADEC and again I look forward to a good time with the GNOME people. See you there!

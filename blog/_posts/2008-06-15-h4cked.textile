@@ -1,0 +1,6 @@
+---
+layout: post
+title: h4cked
+---
+
+Yesterday somebody somehow got the right password and inserted cryptic JavaScript into index.html of my site. Firefox 3 is still showing the "Reported Attack Site!" page for any request towards here. But really, <a href="http://www.stopbadware.org/reports/container?source=Firefox&version=3.0b5&reportname=http://www.marko.anastasov.name/">the site is clean now</a>, and should be removed from whatever black list Mozilla gets later today. Unchecking _Preferences - Security - Tell me if the site I'm visiting is a suspected attack site_ lets you in for now.

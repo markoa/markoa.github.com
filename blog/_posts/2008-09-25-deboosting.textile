@@ -1,0 +1,6 @@
+---
+layout: post
+title: Deboosting
+---
+
+I guess I just wasn't thinking much when I began using Boost in Wordtip code. My goal is to build a service potentially suitable for mobile devices as well, and I suppose that it might not be welcome as a dependency there. So I completely replaced the boosted code with some simplifications, std::tr1::shared_ptr (hopefully nobody is using gcc suite version 3 any more) while I will continue to use the boost testing framework - building tests is just for me anyway.

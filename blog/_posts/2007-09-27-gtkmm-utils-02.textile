@@ -1,0 +1,18 @@
+---
+layout: post
+title: gtkmm-utils 0.2
+---
+
+Earlier today I <a href="http://download.savannah.nongnu.org/releases/gtkmm-utils/0.2/">released</a> <a href="http://mail.gnome.org/archives/gtkmm-list/2007-September/msg00203.html">gtkmm-utils 0.2</a>, featuring _tiles_. From the NEWS:
+
+bq. 
+Tiles are intuitive widgets for a better user experience, by default composed of an image, highlighted title and a short description. They offer important extensibility not available when building a GtkTreeView based interface.
+
+
+Two screenshots. The first one is of the example provided in the source tree:
+
+<a href="http://dl.dropbox.com/u/830772/Images/blog/screenshot-lt-tiles-simple.png"><img src="http://dl.dropbox.com/u/830772/Images/blog/screenshot-lt-tiles-simple.png" alt="Tiles example" heigth="200" width="200" /></a>
+
+The second shows some information about a number of documents (no images, sorry):
+
+<a href="http://dl.dropbox.com/u/830772/Images/blog/screenshot-docs.png"><img src="http://dl.dropbox.com/u/830772/Images/blog/screenshot-docs.png" alt="documents displayes with tiles" width="200" height="200" /></a>

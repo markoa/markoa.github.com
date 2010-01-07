@@ -1,0 +1,21 @@
+---
+layout: default
+title: Web Home
+---
+
+<div id="intro">
+  These are the four most recent blog posts.
+  All are collected in the <a href="/archive" title="Archive">archive</a>. <br />
+  You can email me at <a href="" title="Contact email">marko.anastasov@gmail.com</a>
+  and find me <a href="about#elsewhere" title="Links">on other sites</a>.
+</div>
+
+{% for post in site.posts limit:4 %}
+  <div class="post">
+    <h2>{{ post.title }}</h2>
+    {{ post.content }}
+    <p class="signoff">
+      &#x270E; <a href="{{ post.url }}" title="Permanent link">{{ post.date | date: "%b %d, %Y" }}</a>
+    </p>
+  </div>
+{% endfor %}

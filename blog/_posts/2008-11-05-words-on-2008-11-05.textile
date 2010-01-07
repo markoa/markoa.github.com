@@ -1,0 +1,9 @@
+---
+layout: post
+title: Words on 2008-11-05
+---
+
+<ul class="aktt_tweet_digest">
+	<li>is remembering square #<a href="http://search.twitter.com/search?q=%2317">17</a> @ <a href="http://xkcd.com/442/" rel="nofollow">http://xkcd.com/442/</a> <a href="http://twitter.com/markoa/statuses/991418366">#</a></li>
+	<li>got an impression that real gnome desktop integration ideas are discussed only after a program has been developed and proposed on d-d-l <a href="http://twitter.com/markoa/statuses/992135947">#</a></li>
+</ul>

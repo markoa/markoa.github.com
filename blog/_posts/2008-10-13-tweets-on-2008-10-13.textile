@@ -1,0 +1,9 @@
+---
+layout: post
+title: Tweets on 2008-10-13
+---
+
+<ul class="aktt_tweet_digest">
+	<li>Our major update to Plakatt has been deployed: <a href="http://tinyurl.com/4v3qjz" rel="nofollow">http://tinyurl.com/4v3qjz</a> <a href="http://twitter.com/markoa/statuses/956958289">#</a></li>
+	<li>The Hoptoad blinking frog trips me up <a href="http://twitter.com/markoa/statuses/957678068">#</a></li>
+</ul>

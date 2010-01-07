@@ -1,0 +1,8 @@
+---
+layout: post
+title: Excellent Slicehost articles
+---
+
+I just feel like I should mention how helpful the extensive articles on Slicehost, for example about <a href="http://articles.slicehost.com/email">setting up an email server</a>, are.
+
+Note to self: when following admin guides without really caring to memorize and learn, never _ever_ skip any of the steps. Even when it seems like you already have everything installed. A dependency you shall miss and lose a day.

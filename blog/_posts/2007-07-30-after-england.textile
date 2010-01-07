@@ -1,0 +1,12 @@
+---
+layout: post
+title: After England
+---
+
+<a href="http://guadec.org/">GUADEC</a> was excellent. It was the first one for me and I really enjoyed the opportunity to see, hear and meet all the GNOME people. "Meet Plan Party" is indeed what it's about. There were some inspiring and instructive talks, as well as some not-so-good ones. As with most other things, it's all a matter of practice.
+
+There was of course a significant deal of concern about the future of GNOME. I think that people should not worry that much, but just keep on working - it is much more likely that many individual now-small projects with new ideas will shape up the future than some grand vision.
+
+After GUADEC, I stayed in London for five days, mostly walking around and exploring the grandeur of the city. Generally my approach is to spend enough days to really start feeling the town, instead of just "traveling through" and seeing "the big sights". Yeah, it was an expensive, but beautiful experience. I'll post some photos later.
+
+Yesterday <a href="http://www.murrayc.com/blog/permalink/2007/07/30/gtkmm-21112-api-freeze/">we put the last touches on the gtkmm API for this release cycle</a>. Now move on to other things...

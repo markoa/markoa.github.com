@@ -1,0 +1,6 @@
+---
+layout: post
+title: gtkmm-utils 0.1.0
+---
+
+Today I released the first public, final version of <a href="http://live.gnome.org/gtkmm_utils">gtkmm-utils</a>. I'm very excited and already starting work on new stuff. You can read the <a href="http://mail.gnome.org/archives/gtkmm-list/2007-August/msg00128.html">announcement here</a>, and <a href="http://download.savannah.nongnu.org/releases/gtkmm-utils/0.1/">download it there</a>.

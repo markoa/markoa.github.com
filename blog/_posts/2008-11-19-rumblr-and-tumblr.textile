@@ -1,0 +1,12 @@
+---
+layout: post
+title: Rumblr and Tumblr
+---
+
+Today I was having some fun setting up a <a href="http://markoa.tumblr.com/">blog on Tumblr</a> because I think that it's a nice way of archiving links to useful articles that I've read online for example, instead of making 1234th bookmark somewhere. And I really like the esthetics.
+
+But I also saw that they a simple REST <a href="http://www.tumblr.com/api">API</a>, so I wrote a Ruby <a href="http://github.com/markoa/scripts/tree/master">script called rumblr</a> which is a nifty way of posting there from the console.
+
+Here's a screenshot (it runs on Compiz!):
+
+<a href="http://dl.dropbox.com/u/830772/Images/blog/rumblr_stretching.png"><img src="http://dl.dropbox.com/u/830772/Images/blog/rumblr_stretching.png" alt="" title="rumblr stretching" width="300" height="92" /></a>

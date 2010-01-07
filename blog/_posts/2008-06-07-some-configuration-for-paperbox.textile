@@ -1,0 +1,8 @@
+---
+layout: post
+title: Some configuration for Paperbox
+---
+
+I've added a simple <a href="http://www.gtkmm.org/docs/glibmm-2.4/docs/reference/html/classGlib_1_1KeyFile.html">Glib::KeyFile</a>-based configuration "system" to Paperbox. It's invisible when you're using it, I just wanted it to store the application window layout, so you don't have to do it every time you run the program.
+
+I once pondered whether the program will ever have a settings dialog, and would details such as a color picker for tags would be useful. Well, not for now. I'll try to keep it simple and effective and only add things which I feel are necessary for a better browsing and organizing experience.

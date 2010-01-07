@@ -1,0 +1,6 @@
+---
+layout: post
+title: Paperbox now in git
+---
+
+Yesterday began the big migration of all GNOME repositories from Subversion to Git. That means that the main Paperbox version control system is now "Git":http://git-scm.com/: "http://git.gnome.org/cgit/paperbox":http://git.gnome.org/cgit/paperbox. A big thanks to all who made the awesomeness possible.

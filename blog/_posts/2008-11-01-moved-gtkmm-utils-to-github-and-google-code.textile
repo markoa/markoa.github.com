@@ -1,0 +1,6 @@
+---
+layout: post
+title: Moved gtkmm-utils to GitHub and Google Code
+---
+
+Today I moved gtkmm-utils away from Savannah which I now dislike to github for managing the public <a href="http://github.com/markoa/gtkmm-utils/tree/master">code repository</a> and google for the rest of the <a href="http://code.google.com/p/gtkmm-utils/">project</a> activities.

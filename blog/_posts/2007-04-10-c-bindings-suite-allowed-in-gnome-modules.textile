@@ -1,0 +1,6 @@
+---
+layout: post
+title: C++ bindings suite allowed in GNOME modules
+---
+
+Great news came today, as it has been <a href="http://mail.gnome.org/archives/devel-announce-list/2007-April/msg00001.html">officially announced</a> that <a href="http://www.gtkmm.org">gtkmm</a> and all the C++ bindings that are part of the bindings suite are a blessed dependency of programs to be proposed as GNOME modules. Being in that community with the code I wrote based on and for gtkmm and co., I'm very happy that this has <a href="http://mail.gnome.org/archives/desktop-devel-list/2007-March/msg00150.html">finally</a> <a href="http://mail.gnome.org/archives/gtkmm-list/2007-April/msg00061.html">happened</a>!

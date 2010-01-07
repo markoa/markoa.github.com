@@ -1,0 +1,10 @@
+---
+layout: post
+title: Micronas shuts down consumer division
+---
+
+This is news from four days ago, but for me this is news of the month at least. Yesterday <a href="http://twitter.com/darko_fabijan" target="_blank">Darko</a> told me but I took it as a btw thing and forgot; today he mentioned that a friend said his master's thesis project has been cancelled while being almost finished because of this. (The same thing would've happenned to me if I stayed to graduate and work there, as I was in the DSP team which gets and shares jobs with those guys in Freiburg.)
+
+Micronas, here also known as the big daddy of about a hundred engineers and students in Novi Sad, is <a href="http://www.micronas.com/investor/investornewsadhocpublicity/articles/PR0901/index.html?newslang=1" target="_blank">shutting down its consumer electronics division</a>. This is the one whose main business are audio and video processors for digital TV sets, contributing <a href="http://www.eetimes.com/news/latest/showArticle.jhtml?articleID=213200778" target="_blank">two thirds to the company's total sales</a>. Meanwhile they'll try to find a buyer for what remains, and a "diversification of the automotive division will be pushed into new markets such as industrial products and white goods".
+
+If you ask me, people don't really need that latest video codec, backed by a Prologic surround sound on a 50' plasma TV.

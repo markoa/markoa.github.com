@@ -1,0 +1,8 @@
+---
+layout: post
+title: Announcing project Wordtip
+---
+
+Today I made the first release of <a href="http://code.google.com/p/wordtip/">Wordtip</a>. It's very alpha, but it aims to be a text classification service over D-Bus. What's that good for? Well, it will allow applications to potentially be a little bit smart and do some tasks instead of the user - in this case automatically sort anything that contains plain text (notes, documents, blog entries, emails...) into categories, for recommendation or organizing purposes.
+
+It is a bit amazing that only a few kilobytes of C++ code implementing a naive Bayes classifier and a little bit of D-Bus glue, with no stemming yet, can actually provide reasonable results. Hopefully I'll be making frequent snapshot releases. I actually started the whole project as a little bit of foreplay before diving into the work for my master's thesis, which will hopefully be about Support Vector Machines.

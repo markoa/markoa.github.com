@@ -1,0 +1,12 @@
+---
+layout: post
+title: Tweets on 2008-10-18
+---
+
+<ul class="aktt_tweet_digest">
+	<li>@<a href="http://twitter.com/thebasti">thebasti</a> But when you search for "google profiles" on yahoo you get ... google profiles only. You might even get some google ads as well :) <a href="http://twitter.com/thebasti/statuses/964935501">in reply to thebasti</a> <a href="http://twitter.com/markoa/statuses/964989607">#</a></li>
+	<li>Preparing to begin to start with that one last exam left. <a href="http://twitter.com/markoa/statuses/965258951">#</a></li>
+	<li>@<a href="http://twitter.com/darko_fabijan">darko_fabijan</a> assert(false) <a href="http://twitter.com/darko_fabijan/statuses/965330404">in reply to darko_fabijan</a> <a href="http://twitter.com/markoa/statuses/965368455">#</a></li>
+	<li>Playing with RSS Mixer <a href="http://www.rssmixer.com" rel="nofollow">http://www.rssmixer.com</a> <a href="http://twitter.com/markoa/statuses/965370232">#</a></li>
+	<li>RSS Mixer use case? Clustering a bunch of related feeds you would revisit once in while instead of having tons of unread items in greader. <a href="http://twitter.com/markoa/statuses/965371728">#</a></li>
+</ul>

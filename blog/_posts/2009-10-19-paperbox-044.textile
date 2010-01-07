@@ -1,0 +1,6 @@
+---
+layout: post
+title: Paperbox 0.4.4
+---
+
+Yesterday I pushed <a href="http://download.gnome.org/sources/paperbox/0.4/">another maintainance release</a> of <a href="http://live.gnome.org/PaperBox">Paperbox</a>, fixing a Tracker version requirement and containing a couple of translation updates (some are new). Gnome translators rock! Read the <a href="http://mail.gnome.org/archives/gnome-announce-list/2009-October/msg00037.html">announcement</a> for details.

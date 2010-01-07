@@ -1,0 +1,16 @@
+---
+layout: post
+title: Announcing gtkmm-utils
+---
+
+<a href="http://marko.anastasov.name/gtkmm-utils-0.1.0-rc1.tar.gz">Get it!</a>
+
+In short: a common utility library for GNOME C++ developers.
+
+Just before I leave for UK and <a href="http://guadec.org">GUADEC</a> tomorrow. There is no repository, mailing list, bug tracker... because my project registration for a project at <a href="http://savannah.gnu.org/">Savannah</a> has not yet been approved since Tuesday. Therefore this is a "release candidate". There is no documentation set up, there is one very simple example... all what you'd expect from version 0.1 with a deadline :).
+
+Most of the work is <a href="http://dodji.freespiders.org/blog/">Dodji</a>'s. He should get the credit. An idea about a common library has been floating around for a while, but how this has exactly started is that I needed a logging framework for <a href="http://usbsink.sourceforge.net">USBSink</a>, and imported some code from his <a href="http://home.gna.org/nemiver">Nemiver</a>.
+
+Note that, to compile it, you need g++ 4.x. I've decided to (re)use the C++0X features, which currently is just shared_ptr, rather than force yet another implementation of a shared pointer. AFAIK, all major distros now come with gcc4.
+
+Btw Savannah offers <a href="http://savannah.gnu.org/forum/forum.php?forum_id=4906">git repository hosting</a>! That's why I chose it mainly. I've been using git every day for a bit over a month now and I'm very satisfied. I feel branching, committing locally and merging back is a natural way to work, when you're working on new features in a project, even if you're alone and all local.

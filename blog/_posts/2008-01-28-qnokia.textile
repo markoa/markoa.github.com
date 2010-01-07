@@ -1,0 +1,6 @@
+---
+layout: post
+title: QNokia
+---
+
+So, <a href="http://trolltech.com/28012008/28012008-letter">Nokia has just bought Trolltech</a>. Surprised, like all outsiders. How will Nokia use its’ growing power in the FOSS world? Will it make decisions which lead people to flame, lose interest in what they’ve been doing, abandon projects? Or is the future bright, like in so many announcements, ultimately leading to more and better free software?

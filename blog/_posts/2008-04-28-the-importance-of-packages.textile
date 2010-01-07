@@ -1,0 +1,10 @@
+---
+layout: post
+title: The importance of packages
+---
+
+With time, it is becoming less common for a Linux desktop user to download a tarball of some cool new release and build software on his/her own. Many reasons have lead to this, the most obvious one being that people are just accustomed to their package manager handling everything. Even long-time users are losing this habit.
+
+On the other hand, there seems to be a growing gap in the number of users between a handful of big distributions and the rest. The big distributions naturally want to maintain a high level of stability, so they have policies which often prevent distributing non-security updates throughout the whole lifecycle of a distro release. In my experience (since last year I'm using Ubuntu, used to be on Fedora before that), if someone releases a new version of a program, let's say three weeks after a distro's final release X, users will have to wait about six months for X+1 to install that new version with the provided package manager. That's just bad.
+
+Another issue I see is about new software. The way it is now, a program or library first needs to merit a package by being obviously popular and demanded. But there is a shadow of a chicken and egg problem here, at least for programs which do not have a goal of a very wide, or developer appeal. I think that much more people would try new stuff if their distro provided a package quickly after a new release. If this is true then something like a "give me access to cutting edge packages from the farm" checkbox would greatly help both users and free software development in general, because more people would be running most recent software of choice, happier and providing more feedback. Making packages is not hard, but you cannot argue that developers should be doing it, because most of us spend enough free time writing code. Given the long term benefits, hiring one or two more packagers cannot be that expensive.

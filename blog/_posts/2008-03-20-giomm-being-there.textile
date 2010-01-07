@@ -1,0 +1,29 @@
+---
+layout: post
+title: giomm being there
+---
+
+Ten days ago Murray released <a href="http://mail.gnome.org/archives/gtkmm-list/2008-March/msg00076.html">glibmm 2.16</a>. Ok, this post comes a bit late, but the purpose is anyway, as I <a href="http://www.marko.anastasov.name/blog/2007/10/22/started-wrapping-gio-standalone/">blogged</a> about the humble beginnings some months ago, mostly just to mention that the work on an API/ABI stable <a href="http://www.gtkmm.org/docs/glibmm-2.4/docs/reference/html/namespaceGio.html">giomm</a> has been completed.
+
+Some of the things which you can do with it include:
+
+<ul>
+	<li>getting all kinds of file and file system information</li>
+
+	<li>file monitoring</li>
+
+	<li>asynchronous and synchronous transfers</li>
+
+	<li>quering desktop application info</li>
+
+	<li>icon handling</li>
+
+	<li>doing I/O with streams</li>
+
+	<li>getting information about present drives and volumes</li>
+
+	<li>monitoring volumes for (un)mounts and drive connections</li>
+
+</ul>
+
+It’s been a lot of work, and it would’ve been hard for just one person to do it well enough and finish in free time – so I thank <a href="http://www.murrayc.com/blog">Murray Cumming</a>, <a href="http://blogs.gnome.org/jjongsma">Jonathon Jongsma</a> and José Alburquerque for cooperation and completing the API and documentation.

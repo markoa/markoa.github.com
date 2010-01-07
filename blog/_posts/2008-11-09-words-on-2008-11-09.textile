@@ -1,0 +1,10 @@
+---
+layout: post
+title: Words on 2008-11-09
+---
+
+<ul class="aktt_tweet_digest">
+	<li>discovered that I can have vi mode in bash with "set -o vi" <a href="http://twitter.com/markoa/statuses/997714019">#</a></li>
+	<li>Yeah I switched from emacs to vim some months ago and I think it's permanent. That's why I classified myself as pagan on facebook actually. <a href="http://twitter.com/markoa/statuses/997761671">#</a></li>
+	<li>I wonder how scribd never got into any legal trouble. There's plenty of copyrighted material out there. <a href="http://twitter.com/markoa/statuses/997832730">#</a></li>
+</ul>

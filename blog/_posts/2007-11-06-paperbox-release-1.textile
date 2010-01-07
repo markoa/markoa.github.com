@@ -1,0 +1,14 @@
+---
+layout: post
+title: PaperBox release #1
+---
+
+This evening I <a href="http://mail.gnome.org/archives/gnome-announce-list/2007-November/msg00008.html">released</a> <a href="http://live.gnome.org/PaperBox">PaperBox</a> 0.1. Some people may remember that it used be just an <a href="http://www.marko.anastasov.name/blog/?p=3">idea</a>. Now we have a much better looking image:
+<a href="http://img39.picoodle.com/img/img39/6/11/3/svemirac/f_ScreenshotPm_6d23415.png"><img src="http://marko.anastasov.name/images/Screenshot-PaperBox-RC.resized.png" alt="PaperBox 0.1 screenshot" /></a>
+
+If you're wondering about the way the documents are presented, it is due to the Tile API in <a href="http://live.gnome.org/gtkmm_utils">gtkmlm-utis</a>, which I <a href="http://www.marko.anastasov.name/blog/?p=16">showed eariler</a>. I released gtkmm-utils 0.3.0 <a href="http://mail.gnome.org/archives/gnome-announce-list/2007-November/msg00004.html">on Saturday</a>.
+
+Towards the end of what I decided version 0.1 will be, I realized that I started feeling quite bored with GTK+ (GUI) programming. Commits have not been frequent after I set up the base, communication with Tracker (there will be more fun when XESAM implementation begins), replaced threads with idle shots, the tag cloud widget and tiles... when there was no exploration that is. In the near future, I of course plan to do something more, like integrating Tomboy notes and tag bundles, but what I'm really looking forward to is work to try to add automatic classification capabilities to PaperBox. It will not be quick and easy, but it's certainly not impossible either. In parallel I've also been learning Ruby on Rails (!) and continuing work on giomm.
+
+After making the release, announcements and freshmeat/gnomefiles promos, I took a short walk across the bridge over the Danube nearby and took some fuzzy photos. I find the imperfection charming.
+<a href="http://flickr.com/photos/10012147@N04/"><img src="http://farm3.static.flickr.com/2096/1893535439_a2e532022c_m.jpg" alt="down the bridge" /></a>

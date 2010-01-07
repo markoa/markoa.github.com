@@ -1,0 +1,6 @@
+---
+layout: post
+title: And now Paperbox 0.4
+---
+
+Proper document sorting, improved stability, cleaner document view, shortcuts, icon, translations - it's <a href="http://mail.gnome.org/archives/gnome-announce-list/2008-December/msg00025.html">all</a> *<a href="http://ftp.gnome.org/pub/GNOME/sources/paperbox/0.4/">there</a>*.

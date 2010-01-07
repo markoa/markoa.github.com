@@ -1,0 +1,12 @@
+---
+layout: post
+title: Miniapp&#58; Variance (fork)
+---
+
+This wasn't exactly what I had in mind to do last night, but hey it was fun. At least I didn't go too far and turn <a href="http://gilesbowkett.blogspot.com/2009/09/miniapp-variance.html">an unfinished miniapp</a> (via Giles) into an unfinished app.
+
+<img class="alignnone" title="variance" src="http://dl.getdropbox.com/u/830772/Screenshots/variance.jpg" alt="" width="456" height="238" />
+
+<a href="http://github.com/markoa/Variance">http://github.com/markoa/Variance</a>
+
+(Variance is supposed to let you track your time estimates and how much you were off.)

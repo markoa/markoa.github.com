@@ -1,0 +1,16 @@
+---
+layout: post
+title: Tweets on 2008-10-10
+---
+
+<ul class="aktt_tweet_digest">
+	<li>Each increase in knowledge doubles the number of wrong paths a human mind can take. <a href="http://twitter.com/markoa/statuses/954010231">#</a></li>
+	<li>Found a way to aggregate my tweets on my blog: <a href="http://rick.jinlabs.com/code/twitter/" rel="nofollow">http://rick.jinlabs.com/code/twitter/</a> <a href="http://twitter.com/markoa/statuses/954024265">#</a></li>
+	<li>It would be nice to have a wordpress plugin that automatically publishes dailiy twitter summaries though <a href="http://twitter.com/markoa/statuses/954031975">#</a></li>
+	<li>@<a href="http://twitter.com/tamburix">tamburix</a> Super, nisam znao da su Twitter Tools kompatibilni sa WP 2.5+ <a href="http://twitter.com/tamburix/statuses/954034859">in reply to tamburix</a> <a href="http://twitter.com/markoa/statuses/954068907">#</a></li>
+	<li>Exploring Yahoo Design Pattern Library: <a href="http://developer.yahoo.com/ypatterns/index.php" rel="nofollow">http://developer.yahoo.com/ypatterns/index.php</a> <a href="http://twitter.com/markoa/statuses/954266347">#</a></li>
+	<li>What if it works: <a href="http://demand.openid.net" rel="nofollow">http://demand.openid.net</a> <a href="http://twitter.com/markoa/statuses/954276019">#</a></li>
+	<li>Adding JanRain's ID Selector for Plakatt was very easy <a href="http://twitter.com/markoa/statuses/954290522">#</a></li>
+</ul>
+<p class="aktt_credit">Powered by <a href="http://alexking.org/projects/wordpress">Twitter Tools</a>.
+

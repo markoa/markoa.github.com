@@ -1,0 +1,6 @@
+---
+layout: post
+title: Paperbox 0.4.3 saves the day
+---
+
+I've rolled Paperbox 0.4.3 <a href="http://ftp.gnome.org/pub/GNOME/sources/paperbox/0.4">tarballs</a>. The release includes a fix for a build error on Ubuntu 9.04 (Jaunty) that's been reported and an updated Polish translation.

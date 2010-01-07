@@ -1,0 +1,15 @@
+---
+layout: post
+title: On the responsibility of teaching users about security
+---
+
+Through randomness of Friendfeed I found Simon Willison's blog, and a post titled <a href="http://simonwillison.net/2009/Jul/16/responsibility/">Teaching users to be secure is a shared responsibility</a>:
+
+bq. As web developers we have a shared responsibility to help our users stay safe on the internet. This is becoming ever more important as people move more of their lives online. It’s an almost sisyphean task... I know user education is never the right answer, but in the case of the Web I honestly can’t see any other route.
+
+OAuth isn’t just a protocol, it’s an ambitious attempt to help users understand the importance of protecting their credentials, and the fact that different sites should be granted different permissions with regards to accessing their stuff. This is a difficult but critical lesson for users to learn. The only real hope is if OAuth, implemented correctly, spreads far enough around the Web that people start to understand it and get a feel for how it is meant to work.expect and are used to. It is our responsibility to keep the web advancing, in a secure and open direction.
+I'm always glad to read opinions like this from prominent web developers (Simon is a co-creator of Django). Ever since I found myself building a web app for people, I had thoughts about user education and finding the balance between supporting some latest useful possibility and the point where users have no idea what you're suggesting them (eg building a site for everyone in 2007 with OpenID login only gives you probably more harm - but as an option it is perfectly fine). The password and closed data problem exposed itself fully in practice when we began to see screens that wanted to import your GMail contacts if you just gave them your password. Recent example of doing the right thing is Twitter introducing OAuth API soon after the <a href="http://bokardo.com/archives/the-curious-case-of-twply-and-twitter/">Twply debacle</a>.
+
+The point: when building a web app, don't just follow the path of least resistance to meet what you think users expect and are used to. It is our responsibility to keep the web advancing, in a secure and open direction.
+
+Also see <a href="http://factoryjoe.com/blog/2009/05/18/the-open-social-web">The open, social web</a> by Chris Messina.

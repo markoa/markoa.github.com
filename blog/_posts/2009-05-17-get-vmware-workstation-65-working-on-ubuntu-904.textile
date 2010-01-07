@@ -1,0 +1,11 @@
+---
+layout: post
+title: Get VMWare Workstation 6.5 working on Ubuntu 9.04
+---
+
+This is actually the first time I upgrade a distro using the package manager and not by formatting the root partition and doing it from scratch - and it worked pretty well, Ubuntu Jaunty is now running happily.
+
+Re-installing VMWare from the bundle though won't be enough, because it needs its modules to be rebuilt for the upgraded system files. What it takes is:
+<pre>sudo mv /usr/lib/vmware/modules/binary /usr/lib/vmware/modules/binary.old
+sudo vmware-modconfig --console --install-all</pre>
+<a href="http://ubuntuforums.org/showthread.php?t=1040351">via</a>

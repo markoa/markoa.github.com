@@ -1,0 +1,14 @@
+---
+layout: post
+title: Rendered Text
+---
+
+Important note here. Darko and I are now <a href="http://renderedtext.com">Rendered Text</a>.
+
+Since we started working on <a href="http://plakatt.com">Plakatt</a>, it was only a matter of time before we give ourselves some name. Our relationship with <a href="http://sprawsm.com">Superawesome guys</a> though has quickly gone from "just" <a href="http://blog.plakatt.com/2008/10/28/welcoming-superawesome/">a partnership on Plakatt</a> to doing a major project together, sharing an office in downtown Novi Sad where we are super busy as we (RT) are also working daily on one more project, which actually brings us money. I must say that I really enjoy it; there's no better working environment than being in a room with three other people you like.
+
+So we're busy for the time being, but if you'd like to hire us and you're not in a hurry feel free to <a href="http://renderedtext.com/contact">ping us</a>.
+
+We have a <a href="http://blog.renderedtext.com">blog</a> where we're mostly going to post bits that might be useful to other people working with Rails.
+
+Less than two years ago, being a web developer was not something I thought would happen, or even I'd like doing at all (this definitely had something to do with my first experiences being Java-based). Rails, the kind of community that people working with it are, the change that Ruby as a language brings, working with people and live data, infinite tweakability, <span class="status-body"><span class="entry-content">continuous </span></span>instant deployment, the amazingly evolved browser canvas are some of the reasons why developing for the web feels good.

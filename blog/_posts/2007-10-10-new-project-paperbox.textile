@@ -1,0 +1,12 @@
+---
+layout: post
+title: New project&#58; PaperBox
+---
+
+After some work done locally with git I've decided to make it public and continue that way. The <a href="http://live.gnome.org/NewSVNRepos">new GNOME SVN module policy</a> has been just too attractive. The module is located at:
+
+@http://svn.gnome.org/svn/paperbox@
+
+I won't talk much this early but just quote what I posted to the gnome-announce list:
+
+The purpose of the project is to create a content-oriented document browser. It will rely on file metadata provided by <a href="http://www.gnome.org/projects/tracker/">Tracker</a>, and will present documents as so-called desktop objects, providing an abstraction over the notion of files in a file system.

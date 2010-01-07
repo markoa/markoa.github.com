@@ -1,0 +1,8 @@
+---
+layout: post
+title: My shiny new Satellite A300-1N8
+---
+
+<a href="http://dl.dropbox.com/u/830772/Images/blog/toshiba-a300.jpg"><img title="toshiba a300 1n8 on my desk" src="http://dl.dropbox.com/u/830772/Images/blog/toshiba-a300.jpg" alt="toshiba a300 1n8 on my desk" width="150" height="150" /></a>
+
+On Wednesday, I bought meself a laptop, <a href="http://eu.computers.toshiba-europe.com/innovation/product/Satellite-A300-1N8/1058892/" target="_blank">Toshiba Satellite A300 1N8</a>. It has an Intel T3200 dual core processor at 2GHz, 3GB of RAM @ 800MHz, a glossy 15.4' screen showing a 1280x800 resolution with visibly better colours than my old Viewsonic VG910b monitor at home, texturized mouse pad, no OS tax and so on. It's not too heavy, 2.72kg. All pieces work out of the box on Ubuntu 8.10. At <span>€</span>560 here in Serbia, I believe it's a good choice for a mid-range laptop.

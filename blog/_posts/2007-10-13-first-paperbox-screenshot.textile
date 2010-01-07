@@ -1,0 +1,10 @@
+---
+layout: post
+title: First PaperBox screenshot
+---
+
+Top get an impression of what's going on in the repository, here's a today's snapshot of what the program looks like:
+
+<a href="http://dl.dropbox.com/u/830772/Images/blog/screenshot-paperbox-13-10-07.png"><img src="http://dl.dropbox.com/u/830772/Images/blog/screenshot-paperbox-13-10-07.png" alt="First PaperBox screenshot" height="200" width="200" /></a>
+
+There aren't that many tags yet, I'm still thinking about what would be the best input method.

@@ -1,0 +1,14 @@
+---
+layout: post
+title: ruby-dbus is usable, sort of
+---
+
+After watching our best basketball team Partizan being eliminated in the Euroleague quarterfinals by CSKA (the refereeing was shameful), I needed a quick fix in terminal, so I checked out ruby-dbus. A while ago I tried the gem from rubyforge which couldn't even connect to the session bus (ruby-dbus has been written two years ago), but after looking at the <a href="http://redcareditor.com/">Redcar</a> homepage yesterday I realized that somebody has a fork on github, which gave me some hope.
+
+And indeed <a href="http://github.com/sdague/ruby-dbus/tree/master">sdague-ruby-dbus</a> can be used, to access objects on the bus, catch signals, and even create and <a href="http://trac.luon.net/data/ruby-dbus/tutorial/service.html">expose new services</a>. Support for properties is not implemented.
+
+Here's an example; it's useless but it can give an impression on how it works:
+
+<script src="http://gist.github.com/271388.js?file=ruby-dbus-and-banshee.rb"></script>
+
+I also used <a href="https://fedorahosted.org/d-feet/">D-Feet</a> for the first time. It's a nice D-Bus inspector and debugger tool which can call methods in Python syntax.

@@ -1,0 +1,12 @@
+---
+layout: post
+title: Intuitive is relative
+---
+
+Today was actually the first day in four years of my studies when there are certain project assignments to be done on Linux. I didn't get one, but one my colleague did. (For the curious, IIRC it's about MPEG-2 header parsing on a <a href="http://www.linuxtv.org">LinuxTV</a> system.) This guy is one of those people who graduate in CE or CS without actually knowing how to program, not knowing much English etc.
+
+So there he was, going through the <a href="http://en.opensuse.org/Kickoff">Kickoff</a> menu, wondering how to log out of OpenSUSE. "Is there a 'Log out' in Linux", he wondered. I was passing by, so I was like, I'm gonna show him. I only saw the Kickoff menu once before that. So I clicked, and went to the System/Computer tab. It wasn't there. I wondered for a few moments, and then noticed the Leave tab, where, among other (about seven, I believe) options, was what we were looking for.
+
+OK, maybe I didn't notice that Leave tab because there were small fonts and I was standing, but I just found it strange that I _couldn't find such a basic command on the desktop in the first take_. This has reminded me of <a href="http://mail.gnome.org/archives/desktop-devel-list/2007-March/msg00321.html">a recent discussion on d-d-l</a>, which led me to <a href="http://www.joelonsoftware.com/items/2006/11/21.html">another nice</a> article by Joel Spolsky.
+
+I think in GNOME we have this right - you click on System, and on the bottom you see Lock screen, Log out and Shut down commands. Shut down being the last in the list, is actually often the first one I usually notice, which is generally good. It shouldn't be significantly more difficult (which adds a little bit of frustration every time) to do this from pressing a "real" switch off button on those monochromatic little TVs with BASIC interpreters which I remember from primary school.

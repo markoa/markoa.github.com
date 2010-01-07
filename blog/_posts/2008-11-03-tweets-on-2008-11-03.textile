@@ -1,0 +1,15 @@
+---
+layout: post
+title: Tweets on 2008-11-03
+---
+
+<ul class="aktt_tweet_digest">
+	<li>git tip: colour all output with git config --global color.ui "auto"  (needs git 1.5.5+) <a href="http://twitter.com/markoa/statuses/986758439">#</a></li>
+	<li>@<a href="http://twitter.com/BarackObama">BarackObama</a> good closing argument speech (http://tinyurl.com/67pymg) - watched it today <a href="http://twitter.com/BarackObama/statuses/985883811">in reply to BarackObama</a> <a href="http://twitter.com/markoa/statuses/986761525">#</a></li>
+	<li>Hah Twitter doesn't do page.replace_html on update_count when you submit an update over the web. <a href="http://twitter.com/markoa/statuses/986764206">#</a></li>
+	<li>Enough of git branches in recently migrated Plakatt repo. Gonna read about XVIII century Serbian art for the remaining of the night. <a href="http://twitter.com/markoa/statuses/986855630">#</a></li>
+	<li>Paperwork and my last appearance in the Micronas can. Hello and goodbye. <a href="http://twitter.com/markoa/statuses/987634192">#</a></li>
+	<li>Uhh realized that I accidentally left contact request email sending code commented for a while. Fixed that. <a href="http://twitter.com/markoa/statuses/987768572">#</a></li>
+	<li>People with passwords will sign on Plakatt with their email address from now on. <a href="http://twitter.com/markoa/statuses/988012290">#</a></li>
+	<li>Ah and if you actually use commas to separate tags, we're ready for you <a href="http://twitter.com/markoa/statuses/988014386">#</a></li>
+</ul>

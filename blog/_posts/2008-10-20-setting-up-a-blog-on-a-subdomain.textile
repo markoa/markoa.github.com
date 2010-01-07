@@ -1,0 +1,45 @@
+---
+layout: post
+title: Setting up a blog on a subdomain
+---
+
+Here's a little recipe that I want to share. Basically, if you're a developer without much administrative practice you're likely to spend an hour or two more than you normally should.
+
+The goal is to setup a Wordpress blog on a subdomain, eg blog.domain.com, as an <a href="http://httpd.apache.org/docs/2.2/vhosts/name-based.html">Apache virtual host</a> through a secure shell.
+
+<ul>
+	<li>Create an A-record 'blog' pointing to the server's IP address. I did this in Slicehost control panel and it took about three hours to propagate.</li>
+	<li>If you're running a Debian or Ubuntu server, you can install all dependencies with @apt-get install wordpress@. On Ubuntu Hardy, this installs Wordpress 2.3 somewhere, but you're going to download and use the latest version.</li>
+	<li>Extract the WP files to eg /var/www/wordpress. @chown -R@ that directory to your web server user.</li>
+	<li>Log in the mysql administration console as root and create a database, giving privileges to a user named wordpress, as <a href="http://codex.wordpress.org/Installing_WordPress#Using_the_MySQL_Client">described in the WP installation manual</a>.</li>
+</ul>
+
+Now you need to set up an Apache virtual host. In our case, we already had one running. Here's the content of two vhost files:
+
+<pre>
+<code>
+ <VirtualHost *>
+    ServerName www.domain.com
+    ServerAlias domain domain.com
+    DocumentRoot /path/to/your/app
+</VirtualHost>
+
+<VirtualHost *>
+    ServerName blog.domain.com
+    ServerAlias blog blog.domain.com
+    DocumentRoot /var/www/wordpress
+</VirtualHost>
+</code>
+</pre>
+
+Apparently the <a href="http://httpd.apache.org/docs/2.0/mod/core.html#serveralias">ServerAlias</a> thing is really important otherwise you might for instance end up forwarding all requests to your site to the blog virtual host. Keep them in separate files in @/etc/apache2/sites-available@ and @a2ensite@ the blog one once done. Make sure that in your @apache2.conf@ you have
+
+<pre>
+<code>
+NameVirtualHost *
+</code>
+</pre>
+
+which tells that you're going to use name-based virtual hosting on all ports.
+
+That should be all. Visit /wp-admin for WP to do it's thing and you're done.

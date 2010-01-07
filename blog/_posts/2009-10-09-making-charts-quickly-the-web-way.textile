@@ -1,0 +1,8 @@
+---
+layout: post
+title: Making charts quickly the web way
+---
+
+For my thesis I need to make some charts of course. Trying to do it with a spreadsheet app such as OpenOffice or Google's quickly annoyed me as I couldn't figure out how to annotate each chart bar. I immediately recalled that there are great JavaScript libraries that draw on HTML5 canvas, and found <a href="http://www.filamentgroup.com/lab/jquery_visualize_plugin_accessible_charts_graphs_from_tables_html5_canvas">jQuery Visualize plugin</a>. It's pretty awesome how you just need to make a plain table and it will do the rest in a one line call.
+
+<img class="alignnone" title="a chart made with jquery visualize" src="http://dl.getdropbox.com/u/830772/Screenshots/gradmx-jquery-visualize-chart.jpg" alt="" width="571" height="581" />
