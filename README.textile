@@ -1,6 +1,6 @@
 h1. About
 
-"My weblog":http://marko.anastasov.name. Uses "Jekyll":http://github.com/mojombo/jekyll/tree/master for static site generation.
+"My personal site and blog":http://marko.anastasov.name. Uses "Jekyll":http://github.com/mojombo/jekyll/tree/master for static site generation.
 
 h1. License
 
