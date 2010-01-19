@@ -2,7 +2,7 @@ h1. About
 
 "My personal site and blog":http://marko.anastasov.name. Uses "Jekyll":http://github.com/mojombo/jekyll/tree/master for static site generation.
 
-h1. License
+h2. License
 
 All original textual content is licensed under the "Creative Commons Attribution 3.0 License":http://creativecommons.org/licenses/by/3.0/.
 
