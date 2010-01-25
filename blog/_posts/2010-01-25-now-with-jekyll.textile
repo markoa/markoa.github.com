@@ -1,0 +1,14 @@
+---
+layout: post
+title: Now with Jekyll
+---
+
+Recently and around New year I had a little bit of fun converting this site from one static page and WordPress to some templates and Textile files that "Jekyll":http://github.com/mojombo/jekyll uses to generate a static site. All from scratch, stored in plain text, managed with git, I can now write in Vim and keep a simple layout. Such things can matter only to programmers I guess.
+
+Around the same time, I was reading "diveintohtml5.org":http://diveintohtml5.org/ and the fourth edition of "HTML &amp; XHTML Pocket Reference":http://oreilly.com/catalog/9780596805876, which covers HTML5. Markup-wise, I very much like what's coming &mdash; new tags such as @article@, @time@, @nav@ and their semantics, forms with HTTP verb parameters, special input types. In fact, we can use a good part of it today: @<input type="search" autofocus>@ is supported in latest Chrome, for example. Even if some of this markup may have no real use at the moment because of slow adoption, we should be pushing for what is good. So I decided to make the markup HTML5.
+
+I like nice typography too, so I took this new @@font-face@ thing and "Fontin Sans":http://www.josbuivenga.demon.nl/fontinsans.html font to make text look more like a printed book.
+
+If you want to convert your WordPress blog posts exported to an XML file to Jekyll-ready Textile files, you can use my "wordpressxml2jekyll":http://gist.github.com/268428 script. There's even a part to help you migrate the comments to Disqus if you like.
+
+And if you're running your own server and want to automatically regenerate the Jekyll site after you push to its git repository, there's a catch to writing the "post-receive hook":http://www.kernel.org/pub/software/scm/git/docs/githooks.html, as the GIT_DIR environment variable is automatically set to siterepo/.git directory ("via":http://debuggable.com/posts/git-tip-auto-update-working-tree-via-post-receive-hook:49551efe-6414-4e86-aec6-544f4834cda3). So your post-receive script should look like "this":http://gist.github.com/285289.
