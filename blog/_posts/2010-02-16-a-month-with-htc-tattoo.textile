@@ -1,0 +1,53 @@
+---
+title: A month with HTC Tattoo
+layout: post
+---
+
+h2. A personal intro
+
+Once upon a time, I had an iPhone. There was a competition on my university that I was lucky to win (there, _believe_). It was the early days of 1.1, when everything was in infancy, including jailbreaking and unlocking methodology. There's another thing I assure you that you can believe &mdash; those disclaimers that say you're doing it all on your own risk. Because what I did eventually made parts of my iPhone's hardware stop functioning after a little over a year.
+
+Then I was back in the world of those simple but reliable phones that you need to recharge every week, such as "Nokia 6303":http://europe.nokia.com/find-products/devices/nokia-6303-classic, and "1208":http://www.nokia.co.uk/find-products/all-phones/nokia-1208 even.
+
+But eventually more small computers, that also happen to be usable as phones, began to appear. They're certainly interesting, the future one might say? Well, one important thing is, they're _hackable_. Especially Android phones. You can download the SDK, make the .apk file and put it on your phone. If you have time that is...
+
+Anyway, here I'm going to talk about my experience with HTC Tattoo, which will after two years of a decent contract cost me about 300 euros.
+
+h2. About the phone
+
+On the surface, Tattoo is very light (just a little bit over 100 grams), has all those unnecessary system buttons every Android phone must have, and a smaller screen size than probably all other Androids. It also has a GPS unit. Other details are not very interesting to me, but you can always see the complete "specs":http://www.htc.com/www/product/tattoo/specification.html.
+
+Now, about the virtual keyboard. Since Tattoo comes with a "resistive":http://en.wikipedia.org/wiki/Resistive_touchscreen rather than a more gentle "capacitive touchscreen":http://en.wikipedia.org/wiki/Capacitive_sensing, its virtual keyboard needs more finger pressure than, say, iPhone's. It's absolutely required to go through keyboard and gravity calibration the moment you begin using the phone so that it doesn't miss more than half of your presses. Still, having done that, I cannot type and walk at the same time, which is crap. Now I'm one of those people who stop everything just to write a message.
+
+There's no multitouch as we all know, but in some apps holding the finger down may cause a right-click kind of an action. Eg over a tweet in Peep, the Twitter client.
+
+USB connectivity and a microSD memory card on which you can just throw whatever music you have from any OS, for example, is something I appreciate.
+
+A number of times I was using Tattoo for sort of web browsing &mdash; going through unread items in Google Reader and opening links from the Twitter client. The browser is good at fitting text to display, and I almost never need to zoom in or out. However, it often happens that I randomly lose wireless and 3G connection while doing that for more than a couple of minutes. Somehow this requires me to go to settings and restart wifi.
+
+I saw some other bugs, like once the phone started to ring while charging, and when I unplugged the cable it reset.
+
+Screen difference means that "very few of all the Android apps are available for HTC Tattoo":http://androinica.com/2009/10/11/htc-tattoos-android-market-will-not-list-apps-that-dont-support-qvga-display-option-update/. This is because developers need to explicitly specify that their app works in a small screen resolution (called QVGA &mdash; kind of makes you think we're going to see Super VGA again). So basically there are not many interesting apps out there. I managed to "manually install the Last.fm app":http://www.last.fm/group/Last.fm+Android/forum/114391/_/544135, and it works just fine. When you do this however, even though the system notifies you when a new version is available, you cannot upgrade automatically, again because Android Market is set to ignore these non-supported apps.
+
+Another variable here is the version of Android that the phone comes with. If you're a programmer, when you create an app with Android SDK 1.6, it can't run on phones with Android 1.5 (such as HTC Hero). As a user, since all phone manufacturers take the Android source code and modify it a bit, the fate of your phone's OS upgrade is in the hands of the manufacturer. For example, "HTC has announced a 2.0 upgrade for Hero":http://twitter.com/htc/statuses/5243593307 (although without mentioning any specific date). Meanwhile, you're stuck with mostly the same choice of apps and platform limitations.
+
+Since I mention the platform, I must point out that you may find some nuisances within the Android SDK. For example, "you cannot parse XML with Unicode entity references":http://code.google.com/p/android/issues/detail?id=2607, something every web API could serve you.
+
+The music player is okay, although becomes a little unresponsive if you've got lots of music, and it does look five years older than the iPhone's player. Perhaps due to patents or something, the album covers that you see in the player when you open it for the first time do not represent an album view. Instead, it begins playing from a random song. I need to do many more taps than I'd like to in order to reach a list of all albums. (By the way, you don't say "taps" on Android, it's "clicks".)
+
+I'd also say that the maximum audio volume is too low, but I may be just turning deaf.
+
+Generally the interface could be a little snappier &mdash; it is perfectly fine when you're in peace, but if you're in some sort of rush on the street you do notice those microseconds.
+
+Since the phone synchronizes with Google services, most notably email and calendar, everybody I ever emailed appeared in my address book. That felt like a punch in the face, although fortunately when you enter the phone dialer, it will filter out those without a phone number. That said, Twitter and Flickr updates from the corresponding system apps are a good thing. I rarely use the calendar, but it's nice to know that what I enter there is also accessible from any other browser and computer.
+
+It's handy that the universal share button is pretty much always there. Therefore I can always easily email myself a todo or a link to Backpack, for example.
+
+For all the activities that are going on the phone, its battery is quite weak. With all connectivity on as by default, I need to recharge it every night.
+
+h2. Satisfied?
+
+Overall I do think that Tattoo is good enough. Sure, it could be better on all bad points that I listed. OS updates may never come, and even Android 2.0 still has a limit of 256 MB for application storage. But I can live with Tattoo's shortcomings for now. If there was a carrier in Serbia that offered the iPhone under some conditions, I'd take it instead long time ago. But that's not the case, and I ain't shelling out 650 euros for a gadget that I need to "unlock".
+
+The important point is that a very capable device connected to the web is accessible to everyone now. In the big picture, we're probably witnessing the same process that happenned to personal computers in the 80s, now applied to mobile phones: Apple will be making a great iPhone and other companies that ever made a PC component will be making good Androids.
+

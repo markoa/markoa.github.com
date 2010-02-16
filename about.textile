@@ -22,7 +22,7 @@ h2(#elsewhere). Elsewhere
 * "Twitter":http://twitter.com/markoa &mdash; follow me to keep in touch on a more frequent basis.
 * "Flickr":http://flickr.com/photos/manastasov &mdash; my attempts at photography.
 * "Tumblr":http://omegawm.tumblr.com &mdash; I have a blog there which is my collection of news, ideas and pictures from the web.
-* "Last.fm":http://last.fm/user/last_ape &mdash; some music listening statistics, but not all &mdash; besides digital I maintain a large collection of CDs as well.
+* "Last.fm":http://last.fm/user/last_ape &mdash; some music listening statistics, although I maintain a large collection of CDs as well.
 * "GitHub":http://github.com/markoa &mdash; open source code which is not on Gnome servers.  
 
 I'm also part of the following blogs and sites:
