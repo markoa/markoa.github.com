@@ -1,0 +1,18 @@
+---
+title: Ten minutes with software patents
+layout: post
+---
+
+One of the news of last week was that Facebook was granted a U.S. patent on "news feed":http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=/netahtml/PTO/srchnum.htm&r=1&f=G&l=50&s1=7669123.PN.&OS=PN/7669123&RS=PN/7669123. I share the opinion that "software patents should not exist":http://cdixon.org/2009/09/24/software-patents-should-be-abolished/:
+
+<image src="/images/blog/stopwords-in-software-patents.png" height="300" width="389" alt="percentage of stopwords in software patents" />
+
+Here are some other insanities that I found quickly:
+
+* "Method and system for storing, navigating and accessing files within an operating system through the use of a graphical thumbnail representing the video display of the active document within the active application, and organized chronologically by the most recent file captured":http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=/netahtml/PTO/srchnum.htm&r=1&f=G&l=50&s1=7346850.PN.&OS=PN/7346850&RS=PN/7346850
+* "Method to identify a supplier of good or services over the Internet by providing a home page with at least one link to a directory Web site for a class of goods or services":http://appft1.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PG01&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&s1='20020087509'.PGNR.&OS=DN/20020087509&RS=DN/20020087509
+* "System and method for enabling users to interact in a virtual space":http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=/netahtml/PTO/srchnum.htm&r=1&f=G&l=50&s1=7181690.PN.&OS=PN/7181690&RS=PN/7181690
+* "Method for sending multi-media messages using emoticons":http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=/netahtml/PTO/srchnum.htm&r=1&f=G&l=50&s1=6990452.PN.&OS=PN/6990452&RS=PN/6990452
+* "Method and apparatus for automatic software replacement":http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=/netahtml/PTO/srchnum.htm&r=1&f=G&l=50&s1=5764992.PN.&OS=PN/5764992&RS=PN/5764992
+* "Delayed uploading of user registration data":http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=/netahtml/PTO/srchnum.htm&r=1&f=G&l=50&s1=6,775,828.PN.&OS=PN/6,775,828&RS=PN/6,775,828
+* "System and process for encoding selected data structures in browser cookies":http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=/netahtml/PTO/srchnum.htm&r=1&f=G&l=50&s1=7660816.PN.&OS=PN/7660816&RS=PN/7660816
