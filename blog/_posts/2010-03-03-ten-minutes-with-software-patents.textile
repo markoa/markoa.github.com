@@ -5,7 +5,7 @@ layout: post
 
 One of the news of last week was that Facebook was granted a U.S. patent on "news feed":http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=/netahtml/PTO/srchnum.htm&r=1&f=G&l=50&s1=7669123.PN.&OS=PN/7669123&RS=PN/7669123. I share the opinion that "software patents should not exist":http://cdixon.org/2009/09/24/software-patents-should-be-abolished/:
 
-<img src="/images/blog/stopwords-in-software-patents.png" height="300" width="389" alt="percentage of stopwords in software patents" />
+<image src="/images/blog/stopwords-in-software-patents.png" height="300" width="389" alt="percentage of stopwords in software patents" />
 
 Here are some other insanities that I found quickly:
 
