@@ -1,17 +1,9 @@
 ---
 layout: default
 title: Web Home
-page_id: home
 ---
 
-<div id="intro">
-  These are the four most recent blog posts.
-  All are collected in the <a href="/archive" title="Archive">archive</a>. <br />
-  You can email me at <a href="" title="Contact email">marko.anastasov@gmail.com</a>
-  and find me <a href="about#elsewhere" title="Links">on other sites</a>.
-</div>
-
-{% for post in site.posts limit:4 %}
+{% for post in site.posts limit:1 %}
   <div class="post">
     <h1>{{ post.title }}</h1>
     {{ post.content }}
@@ -20,3 +12,15 @@ page_id: home
     </p>
   </div>
 {% endfor %}
+
+<div class="post archive">
+  <ul>
+  {% for post in site.posts offset:1 limit:4 %}
+    <li class="inner">
+      <span class="postDate">{{ post.date | date: "%b %d, %Y"  }}</span>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+    <li class="last"><span class="postDate">Amoksicilin</span><a href="/archive">&hellip;</a></li>
+  </ul>
+</div>
