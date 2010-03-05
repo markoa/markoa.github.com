@@ -79,3 +79,29 @@ blockquote {
 #disqus_thread {
     margin-top: 50px;
 }
+
+#footer {
+    text-align: center;
+}
+
+#home .post {
+    margin-bottom: 4em;
+}
+
+#archive ul {
+    -webkit-padding-start: 0;
+    padding-left: 0;
+}
+
+#archive li {
+    list-style-type: none;
+    margin: 0 !important;
+    padding: 5px 0;
+    border-top: 1px solid #d5d5d5;
+}
+
+#archive .postDate {
+    float: left;
+    width: 110px;
+    color: #666;
+}

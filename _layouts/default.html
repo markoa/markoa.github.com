@@ -16,7 +16,7 @@
 
     <title>{{ page.title }} &mdash; Marko Anastasov</title>
   </head>
-  <body>
+  <body id="{{ page.page_id }}">
     <header>
       <h1 id="title">
         <a href="/about" title="About">Marko Anastasov</a> has a <a href="/" title="Home">website</a>.
@@ -26,13 +26,13 @@
       {{ content }}
       <footer id="footer">
         <p>
-        <a href="/" title="Home">Home</a> &middot;
-        <a href="/about" title="About the author and site">About</a> &middot;
-        <a href="/archive" title="Archived writing">Archive</a> &middot;
-        <a href="/atom.xml" title="Blog's Atom feed">Feed</a>
+          <a href="/" title="Home">Home</a> &middot;
+          <a href="/about" title="About the author and site">About</a> &middot;
+          <a href="/archive" title="All writing ever">Archive</a> &middot;
+          <a href="/atom.xml" title="Blog's Atom feed">Feed</a>
         </p>
         <p class="contentLicense">
-        All original content is licensed under the <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a> except that which is quoted from elsewhere or attributed to others. All code that appears inlined is licensed under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a>.
+          &copy; 2007-present <a href="/about">Marko Anastasov</a>
         </p>
       </footer>
     </div>

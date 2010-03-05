@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Web Home
+page_id: home
 ---
 
 <div id="intro">
@@ -12,7 +13,7 @@ title: Web Home
 
 {% for post in site.posts limit:4 %}
   <div class="post">
-    <h2>{{ post.title }}</h2>
+    <h1>{{ post.title }}</h1>
     {{ post.content }}
     <p class="signoff">
       &#x270E; <a href="{{ post.url }}" title="Permanent link">{{ post.date | date: "%b %d, %Y" }}</a>

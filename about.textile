@@ -23,7 +23,7 @@ h2(#elsewhere). Elsewhere
 I'm also part of the following blogs:
 
 * "Rendered Text blog":http://renderedtext.com/blog &mdash; sharing some of the knowledge from our daily work.
-* "Ruby.rs":http://ruby.rs &mdash; Serbian Ruby community which I helped make happen.
+* "Ruby.rs":http://ruby.rs &mdash; Serbian Ruby community, which a few of us brought together.
 
 h2. Open source
 
@@ -38,6 +38,8 @@ Over the years, mostly while at university and before starting a company, I spen
 
 h2. About this site
 
-The pages of this site are generated with "Jekyll":http://github.com/mojombo/jekyll, wrapped in HTML5 and typeset in "Fontin Sans":http://www.josbuivenga.demon.nl/fontinsans.html. If it looks strange then you're probably using a browser which doesn't conform to web standards, such as Internet Explorer.
+All posts are &copy; Marko Anastasov, all rights reserved. Comments are &copy; their original authors.
+
+These pages are generated with "Jekyll":http://github.com/mojombo/jekyll, wrapped in HTML5 and typeset in "Fontin Sans":http://www.josbuivenga.demon.nl/fontinsans.html. If it looks strange then you're probably using a browser which doesn't conform to web standards, such as Internet Explorer.
 
 </div>
