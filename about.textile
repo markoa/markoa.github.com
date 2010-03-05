@@ -12,7 +12,7 @@ With "friends":http://plakatt.com/about I'm working on "Plakatt":http://plakatt.
 
 I live in Novi Sad, Serbia and can play Roland by Interpol with great precision.
 
-You can email me at marko.anastasov@gmail.com.
+Feel free to email me at <a href="mailto:marko.anastasov@gmail.com">marko.anastasov@gmail.com</a>.
 
 h2(#elsewhere). Elsewhere
 
