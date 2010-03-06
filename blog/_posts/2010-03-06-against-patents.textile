@@ -1,0 +1,16 @@
+---
+title: Again(st) patents
+layout: post
+---
+
+I wasn't completely honest in "my previous post":/blog/2010/03/03/ten-minutes-with-software-patents/. As I was searching for the exact link to Amazon's cookie patent on USPTO's site, I did a "search for 'cookies'":http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=/netahtml/PTO/search-bool.html&r=0&f=S&l=50&TERM1=cookies&FIELD1=TI&co1=AND&TERM2=&FIELD2=&d=PTXT. Turns out there's lots of other silly software patents about doing something with browser cookies, which is logically not far from patenting an arbitrary sequence of operation in RAM. But there are also patents about how to actually "make cookies":http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=/netahtml/PTO/search-bool.html&r=24&f=G&l=50&co1=AND&d=PTXT&s1=cookies.TI.&OS=TTL/cookies&RS=TTL/cookies. Now in predefined shapes.
+
+Recent "explosion of patent lawsuits in mobile computing":http://bits.blogs.nytimes.com/2010/03/04/an-explosion-of-mobile-patent-lawsuits/ has provoked a "lot":http://www.tbray.org/ongoing/When/200x/2004/10/12/PatentTheory of "people":http://daringfireball.net/2010/03/this_apple_htc_patent_thing to "blog":http://www.marco.org/430351101 about software patents. But seriously, how are software patents different from any other? They're all about how to make something. Is it because software is not a physical thing?
+
+In fact I think that patents should not exist in general.
+
+Some say that companies need to protect their inventions. There's plenty of "evidence":http://www.apple.com that a company can be a leader in some field even if all the ingredients and methods are available to everybody else. A frequent example are pharmaceutical companies, who are thought to spend huge amounts of money in research, thus should be given a monopoly on a certain medication for some time. They _deserve_ a monopoly? Perhaps a better question would be how did the society end up in a situation that such research should not be done through a joint effort at universities. It just doesn't work trying to "maximize profit at every step you make":http://blogs.hbr.org/haque/2009/12/21st_century_strategy_in_four.html.
+
+Perhaps patents made sense in late 19th century, but I don't think that a legal ground that creates "companies that make money from lawsuites":http://en.wikipedia.org/wiki/Rambus is the way to go. Neither should individuals get passivizing royalties. It doesn't matter if they "go to the hair dresser every day":http://www.imdb.com/title/tt0276751/ or start a company; a false sense of reality can have bad consequences &mdash; mostly on the people who are around.
+
+Good ideas should spread freely.
