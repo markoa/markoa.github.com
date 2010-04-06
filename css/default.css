@@ -43,6 +43,10 @@ a:hover {
     background: #DDF1FA;
 }
 
+a img {
+    border-width: 0;
+}
+
 .post {
     margin: 2em 0 2em 0;
 }
