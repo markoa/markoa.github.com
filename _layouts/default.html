@@ -19,7 +19,13 @@
   <body>
     <header>
       <h1 id="title">
-        <a href="/about" title="About">Marko Anastasov</a> has a <a href="/" title="Home">website</a>.
+        <a href="/about" title="About">Marko Anastasov</a> <span class="light">has a</span> <a href="/" title="Home">website</a>
+        {% if page.title == 'Web Home' %}
+          <span class="light">where he last wrote about</span>
+          {% for post in site.posts offset:0 limit:1 %}
+            <a href="{{ post.url }}">{{ post.title }}</a><span class="light">:</span>
+          {% endfor %}
+        {% endif %}
       </h1>
     </header>
     <div id="wrapper">

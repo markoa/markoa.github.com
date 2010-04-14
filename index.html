@@ -6,7 +6,6 @@ description: <meta content="The homepage of Marko Anastasov. Contains a blog and
 
 {% for post in site.posts limit:1 %}
   <div class="post">
-    <h1>{{ post.title }}</h1>
     {{ post.content }}
     <p class="signoff">
       &#x270E; <a href="{{ post.url }}" title="Permanent link">{{ post.date | date: "%b %d, %Y" }}</a>
