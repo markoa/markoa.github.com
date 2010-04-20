@@ -43,6 +43,10 @@ a:hover {
     background: #DDF1FA;
 }
 
+.plkt-footer a:hover {
+    color: black !important;
+}
+
 a img {
     border-width: 0;
 }
