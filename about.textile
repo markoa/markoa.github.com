@@ -6,15 +6,15 @@ title: About
 <div class="post">
 h2. It's all or nothing about the author
 
-I make useful software at "Rendered Text":http://renderedtext.com.
+I make web software at "Rendered Text":http://renderedtext.com.
 
-With "friends":http://plakatt.com/about I'm working on "Plakatt":http://plakatt.com, a website for publishing, discovering and sharing events.
+With "friends":http://plakatt.com/about I'm working on "Plakatt":http://plakatt.com, a website for sharing and discovering events.
 
 I live in Novi Sad, Serbia and can play Roland by Interpol with great precision.
 
 Feel free to email me at <a href="mailto:marko.anastasov@gmail.com">marko.anastasov@gmail.com</a>.
 
-h2(#elsewhere). Elsewhere
+h3(#elsewhere). Elsewhere
 
 * "Twitter":http://twitter.com/markoa &mdash; follow me to keep in touch on a more frequent basis.
 * "Flickr":http://flickr.com/photos/manastasov &mdash; my attempts at photography.
@@ -27,7 +27,7 @@ I'm also part of the following blogs:
 * "Rendered Text blog":http://renderedtext.com/blog &mdash; sharing some of the knowledge from our daily work.
 * "Ruby.rs":http://ruby.rs &mdash; Serbian Ruby community, which a few of us brought together.
 
-h2. Open source
+h3. Open source
 
 Over the years, mostly while at university and before starting a company, I spent a lot of my free time learning, tinkering and contributing to open source software projects. At that time, it was all about what's on and below the Linux desktop for me, and I couldn't have guessed that I'd end up programming for the web. As it always happens, I've submitted patches to many different projects, but here I list those that I released or made a significant contribution to, in order of appearance:
 
@@ -38,10 +38,8 @@ Over the years, mostly while at university and before starting a company, I spen
 * "wordtip":http://github.com/markoa/wordtip &mdash; an incomplete text classification desktop service.
 * "Tumblefile":http://github.com/markoa/tumblefile &mdash; automatic, chronological file organizer.
 
-h2. About this site
+h3. Colophon
 
-All posts are &copy; Marko Anastasov, all rights reserved. Comments are &copy; their original authors.
-
-These pages are generated with "Jekyll":http://github.com/mojombo/jekyll, wrapped in HTML5 and typeset in "Fontin Sans":http://www.josbuivenga.demon.nl/fontinsans.html. If it looks strange then you're probably using a browser which doesn't conform to web standards, such as Internet Explorer.
+These pages are generated with "Jekyll":http://github.com/mojombo/jekyll, wrapped in HTML5 and typeset in "Fontin Sans":http://www.josbuivenga.demon.nl/fontinsans.html. The last word on the front page is anything that comes to my mind before I'm about to push a post to this site's "git":http://git-scm.com/ repository.
 
 </div>
