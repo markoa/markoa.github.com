@@ -1,0 +1,27 @@
+#!/usr/bin/env ruby
+
+# Creates a blank textile file with basic YAML front matter for
+# your Jekyll blog. Then it launches gvim so that you can start
+# writing immediately.
+#
+# Assumes your posts are in ./blog/_posts and that you're using a layout
+# called 'post'.
+
+if ARGV.empty?
+  puts "As an argument, write your new post's title. Eg 'newpost Something I want to share'."
+  exit
+end
+
+title = ARGV.join(" ")
+slug = title.gsub(/\s+/, '-').downcase
+path = "blog/_posts/#{Time.now.strftime("%Y-%m-%d")}-#{slug}.textile"
+
+File.open(path, "w") do |f|
+  f.write "---\n"
+  f.write "title: #{title}\n"
+  f.write "layout: post\n"
+  f.write "---\n\n"
+end
+
+puts "=> #{path}"
+`gvim #{path}`
