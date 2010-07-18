@@ -4,42 +4,18 @@ title: About
 ---
 
 <div class="post">
-h2. It's all or nothing about the author
+h2. Insomma
 
-I make web software at "Rendered Text":http://renderedtext.com.
-
-With "friends":http://plakatt.com/about I'm working on "Plakatt":http://plakatt.com, a website for sharing and discovering events.
+I make web software at "Rendered Text":http://renderedtext.com. Apart from client work, with "friends":http://plakatt.com/about I'm working on "Plakatt":http://plakatt.com, a website for sharing and discovering events. And I do "open source":/open-source too.
 
 I live in Novi Sad, Serbia and can play Roland by Interpol with great precision.
 
-Feel free to email me at <a href="mailto:marko.anastasov@gmail.com">marko.anastasov@gmail.com</a>.
+<a href="http://www.flickr.com/photos/manastasov" rel="me">My photos on Flickr</a> might give you a better view.
 
-h3(#elsewhere). Elsewhere
-
-* "Twitter":http://twitter.com/markoa &mdash; follow me to keep in touch on a more frequent basis.
-* "Flickr":http://flickr.com/photos/manastasov &mdash; my attempts at photography.
-* "Tumblr":http://omegawm.tumblr.com &mdash; a blog which is my collection of news, ideas and pictures.
-* "Last.fm":http://last.fm/user/last_ape &mdash; some music listening statistics.
-* "GitHub":http://github.com/markoa &mdash; open source code which is not on Gnome servers.
-
-I'm also part of the following blogs:
-
-* "Rendered Text blog":http://renderedtext.com/blog &mdash; sharing some of the knowledge from our daily work.
-* "Ruby.rs":http://ruby.rs &mdash; Serbian Ruby community, which a few of us brought together.
-
-h3. Open source
-
-Over the years, mostly while at university and before starting a company, I spent a lot of my free time learning, tinkering and contributing to open source software projects. At that time, it was all about what's on and below the Linux desktop for me, and I couldn't have guessed that I'd end up programming for the web. As it always happens, I've submitted patches to many different projects, but here I list those that I released or made a significant contribution to, in order of appearance:
-
-* "USBSink":http://usbsink.sourceforge.net/ &mdash; file synchronization app between a computer and USB devices.
-* "gtkmm":http://www.gtkmm.org &mdash; Gnome and GTK+ C++ bindings.
-* "Paperbox":http://live.gnome.org/PaperBox &mdash; document browser.
-* "gtkmm-utils":http://code.google.com/p/gtkmm-utils/ &mdash; reusable widgets and classes based on gtkmm and glibmm.
-* "wordtip":http://github.com/markoa/wordtip &mdash; an incomplete text classification desktop service.
-* "Tumblefile":http://github.com/markoa/tumblefile &mdash; automatic, chronological file organizer.
+You can email me at <a href="mailto:marko.anastasov@gmail.com">marko.anastasov@gmail.com</a>.
 
 h3. Colophon
 
-These pages are generated with "Jekyll":http://github.com/mojombo/jekyll, wrapped in HTML5 and typeset in "Fontin Sans":http://www.josbuivenga.demon.nl/fontinsans.html. The last word on the front page is anything that comes to my mind before I'm about to push a post to this site's "git":http://git-scm.com/ repository.
+These pages are generated with "Jekyll":http://github.com/mojombo/jekyll, wrapped in HTML5 and typeset in "Fontin Sans":http://www.josbuivenga.demon.nl/fontinsans.html. The last word on the front page is anything that comes to my mind before I'm about to push a new post to this site's "git":http://git-scm.com/ repository.
 
 </div>

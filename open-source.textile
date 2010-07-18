@@ -1,0 +1,22 @@
+---
+layout: default
+title: Open source
+---
+
+<div class="post">
+h2. Open source
+
+<a href="http://github.com/markoa" rel="me">GitHub</a> has all the latest projects that I've hacked on. "Rendered Text has a profile":http://github.com/renderedtext too.
+
+h3. Past
+
+Over the years, mostly while at university and before starting a company, I was spending a lot of my free time learning, tinkering and contributing to open source software projects. At that time, it was all about what's on and below the Linux desktop for me, and I couldn't have guessed that I'd end up programming for the web. As it always happens, I've submitted patches to many different projects; here is a list of those that I personally released or made a significant contribution to, in order of appearance:
+
+* "USBSink":http://usbsink.sourceforge.net/ &mdash; file synchronization app between a computer and USB devices.
+* "gtkmm":http://www.gtkmm.org &mdash; Gnome and GTK+ C++ bindings.
+* "Paperbox":http://live.gnome.org/PaperBox &mdash; document browser.
+* "gtkmm-utils":http://code.google.com/p/gtkmm-utils/ &mdash; reusable widgets and classes based on gtkmm and glibmm.
+* "wordtip":http://github.com/markoa/wordtip &mdash; an incomplete text classification desktop service.
+* "Tumblefile":http://github.com/markoa/tumblefile &mdash; automatic, chronological file organizer.
+
+</div>
