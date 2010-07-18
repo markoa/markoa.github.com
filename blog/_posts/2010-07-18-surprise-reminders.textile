@@ -1,0 +1,6 @@
+---
+title: Surprise reminders
+layout: post
+---
+
+Consider setting email reminders (via Google Calendar, for instance) for something in distant future. Eg “have you done x with this person”, “chase this client unless he finally paid”, “go to _” etc. It’s an interesting way to, not just remember, but check whether months later you’re still feeling the same way, and the conditions you’ve predicted still hold true.
