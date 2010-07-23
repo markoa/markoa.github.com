@@ -1,0 +1,12 @@
+---
+title: OpenID and OAuth
+layout: post
+---
+
+About three years have passed since OpenID initiative was widely launched and from what I see, only hardcore tech geeks, a tiny fraction of Internet users, have acquired or figured out what their OpenID URL is. (My OpenID URL is this site's URL, which redirects to myid.net via some meta tags.)
+
+The password problem does remain. However, it is a problem that only we have, the fraction that has dozens of active accounts. In a way, it was expected that because of this everyone else would eventually understand and _type in_ an OpenID. Ambitious.
+
+Meanwhile, a data-sharing idea that started much more modest, OAuth, is being applied on a large scale. Its implementations, two-_click_ sign ins with Twitter, Facebook, Google Account etc, in the context where these accounts provide value and integration with the corresponding service makes sense, are awesome. It’s becoming a standard for secure third-party application development through API access, latest example being "Tumblr":http://staff.tumblr.com/post/806396160/oauth. But to use it just to solve the “login problem” is not appropriate.
+
+This has proved that the data and, perhaps even more, friend portability problem is more important. There can’t be one true universal solution on the web. Rather, we should continue to standardize how to connect the nodes.
