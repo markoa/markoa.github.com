@@ -2,12 +2,12 @@
 layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom">
  <title>Marko Anastasov</title>
- <link href="http://marko.anastasov.name/atom.xml" rel="self"/>
- <link href="http://marko.anastasov.name/"/>
+ <link href="http://www.marko.anastasov.name/atom.xml" rel="self"/>
+ <link href="http://www.marko.anastasov.name/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://marko.anastasov.name/</id>
+ <id>http://www.marko.anastasov.name/</id>
  <author>
    <name>Marko Anastasov</name>
    <email>marko.anastasov@gmail.com</email>
@@ -15,13 +15,13 @@ layout: nil
  {% for post in site.posts limit:10 %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://marko.anastasov.name{{ post.url }}"/>
+   <link href="http://www.marko.anastasov.name{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://marko.anastasov.name{{ post.id }}</id>
+   <id>http://www.marko.anastasov.name{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
    <author>
      <name>Marko Anastasov</name>
-     <uri>http://marko.anastasov.name/about</uri>
+     <uri>http://www.marko.anastasov.name/about</uri>
    </author>
  </entry>
  {% endfor %}
