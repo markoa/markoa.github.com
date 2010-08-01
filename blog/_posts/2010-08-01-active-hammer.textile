@@ -1,0 +1,12 @@
+---
+title: Active hammer
+layout: post
+---
+
+"Frank Chimero has yet another interesting post":http://blog.frankchimero.com/post/881248867/lazy-hammer on the value of making new things through collaboration with people from other fields. In the introduction, he makes this good observation:
+
+bq. [Dino and He-Man] were my two favorite toys. Looking back at them, I played more with that shabby dinosaur toy than I did with He-Man. Because He-Man, well, had to be He-Man. That’s all he could be, and he could only do the things I saw on the television show. He couldn’t shoot lasers out of his eyes, he couldn’t bend time, he couldn’t eat bombs. But dinosaur could. Dino could do anything [...] because I wasn’t playing in someone else’s story, letting someone else do my pretending for me.
+
+To maintain a healthy state of mind, I believe that the same applies to anyone doing some kind of creative work. If you're in it, you must get at least some pleasure in making things. From nothing. Most likely, it is why you've always wanted to do that.
+
+If you're a programmer, I think it's essential to have something going on aside. Either a part-time startup, or an open source pet project, or reading a CS book on a topic you're not familiar with. Otherwise, depending on your job but still, you might start wondering "whatever happened to programming":http://reprog.wordpress.com/2010/03/03/whatever-happened-to-programming/.
