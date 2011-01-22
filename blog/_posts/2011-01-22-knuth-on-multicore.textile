@@ -1,0 +1,16 @@
+---
+title: Knuth on multicore
+layout: post
+---
+
+"In this short video interview that we found":http://twitter.com/#!/renderedtext/status/28115277115817984, Donald Knuth throws an interesting opinion that I didn't hear anyone expressing publicly:
+
+<blockquote>
+I don't know anybody who likes multicore except the people that are manufacturing the chips, and they're saying "Well, now we're giving you all this great hardware" &hellip; [the chip designers] are just passing the buck, they ran out of ideas and so they said "OK now it's your problem".
+
+These multicores actually do a lot of important things well and so if you're good in video games or you're doing some calculations like physicists like to have&hellip; then multicore is a super thing. The trouble is, when I look at the last 2000 programs I've written, maybe 2 of them are helped by multicore.
+</blockquote>
+
+While I like the idea of learning a new programming language that will change and expand my thinking, the idea of learning one "to tackle multi-core complexity" never felt right &mdash; as if we wanted that complexity in the first place. Once again, it's worth remembering to practice the skill of taking a step back and seeing beyond what is served and marketed to us.
+
+On the other hand, a professor from my university, who taught a OS course where we were writing concurrent programs in C++, said at the end of the semester that concurrency _is_ a way of thinking, and if you really mastered it, you will approach and solve many problems that way. So it's probably not an option to avoid entirely, and new languages and frameworks(?) should help us explore those grounds.
