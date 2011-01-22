@@ -4,18 +4,12 @@ title: About
 ---
 
 <div class="post">
-h2. Insomma
+h2. About
 
 I make web software at "Rendered Text":http://renderedtext.com. Apart from client work, with "friends":http://plakatt.com/about I'm working on "Plakatt":http://plakatt.com, a website for sharing and discovering events. And I do "open source":/open-source too.
 
-I live in Novi Sad, Serbia and can play Roland by Interpol with great precision.
+I like more and more music every day since fifth grade, loose tea, speak a bit of Italian, lived on an island, climbed the highest mountain in my country, and these days I have moustache.
 
-<a href="http://www.flickr.com/photos/manastasov" rel="me">My photos on Flickr</a> might give you a better view.
-
-You can email me at <a href="mailto:marko.anastasov@gmail.com">marko.anastasov@gmail.com</a>.
-
-h3. Colophon
-
-These pages are generated with "Jekyll":http://github.com/mojombo/jekyll, wrapped in HTML5 and typeset in "Fontin Sans":http://www.josbuivenga.demon.nl/fontinsans.html. The last word on the front page is anything that comes to my mind before I'm about to push a new post to this site's "git":http://git-scm.com/ repository.
+You can email me at marko.anastasov ✉ gmail.com.
 
 </div>

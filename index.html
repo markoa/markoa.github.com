@@ -4,23 +4,19 @@ title: Web Home
 description: <meta content="The homepage of Marko Anastasov. Contains a blog and links to profiles on other websites." name="description" />
 ---
 
-{% for post in site.posts limit:1 %}
-  <div class="post">
-    {{ post.content }}
-    <p class="signoff">
-      &#x270E; <a href="{{ post.url }}" title="Permanent link">{{ post.date | date: "%b %d, %Y" }}</a>
-    </p>
-  </div>
-{% endfor %}
+<section>
+  <p>He has, according to an old friend, become some sort of a programmer.</p>
+  <p>You can read more in the blog archives below, or follow one of the links to other sites.</p>
+</section>
 
 <div class="post archive">
   <ul>
-  {% for post in site.posts offset:1 limit:4 %}
+  {% for post in site.posts limit:4 %}
     <li class="inner">
       <span class="postDate">{{ post.date | date: "%b %d, %Y"  }}</span>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
-    <li class="last"><span class="postDate">Mixing Part</span><a href="/archive">&hellip;</a></li>
+    <li class="last"><span class="postDate">White Magic</span><a href="/archive">&hellip;</a></li>
   </ul>
 </div>

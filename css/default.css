@@ -2,6 +2,8 @@
 /* A font by Jos Buivenga (exljbris) -> www.exljbris.com */
 @font-face {
     font-family: "Fontin Sans";
+    font-weight: normal;
+    font-style: normal;
     src: url("/fonts/Fontin_Sans_R_45b.otf");
 }
 
@@ -56,8 +58,17 @@ a img {
 }
 
 h1 {
-    line-height: 1.2em;
-    font-size: 2em;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.post h1 {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+h2, h3 {
+    font-size: 1em;
 }
 
 .contentLicense {
@@ -89,8 +100,14 @@ blockquote {
     color: #d5d5d5;
 }
 
-#title {
-    margin: 1em 0;
+#title, h1.inner {
+    margin: 4em 0 0 0;
+    clear: right;
+}
+
+h1.inner {
+    text-align: right;
+    font-style: italic;
 }
 
 #disqus_thread {

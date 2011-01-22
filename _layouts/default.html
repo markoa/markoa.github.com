@@ -18,15 +18,15 @@
   </head>
   <body>
     <header>
-      <h1 id="title">
-        <a href="/about" title="About">Marko Anastasov</a> <span class="light">has a</span> <a href="/" title="Home">website</a>
-        {% if page.title == 'Web Home' %}
-          <span class="light">where he last wrote about</span>
-          {% for post in site.posts offset:0 limit:1 %}
-            <a href="{{ post.url }}">{{ post.title }}</a><span class="light">:</span>
-          {% endfor %}
-        {% endif %}
-      </h1>
+      {% if page.title == 'Web Home' %}
+        <h1 id="title">
+          <a href="/about" title="About">Marko Anastasov</a> is a young man from Novi Sad, Serbia.
+        </h1>
+      {% else %}
+        <h1 id="title" class="inner light">
+          A website of <a href="/about" title="About">Marko Anastasov</a>
+        </h1>
+      {% endif %}
     </header>
     <div id="wrapper">
       {{ content }}
@@ -37,7 +37,8 @@
           <a href="/archive" title="A chronological list of all blog posts">Archive</a> &middot;
           <a href="http://feeds.feedburner.com/markoanastasov" title="Subscribe to this blog">Feed</a> &middot;
           <a href="http://twitter.com/markoa" rel="me">@markoa</a> &middot;
-          <a href="http://omegawm.tumblr.com" rel="me">Na srpskom</a>
+          <a href="http://flickr.com/photos/manastasov" rel="me">It did happen</a> &middot;
+          <a href="http://tackazvezda.com" rel="me">Na srpskom</a>
         </p>
         <p class="contentLicense">
           &copy; 2007-present <a href="/about">Marko Anastasov</a>
