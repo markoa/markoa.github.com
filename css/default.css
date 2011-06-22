@@ -24,6 +24,8 @@ body {
     font-family: "Fontin Sans", sans-serif;
     font-size: 16px;
     line-height: 24px;
+    /* bg image found on http://subtlepatterns.com */
+    background: url("/images/bright_squares.png");
 }
 
 strong {
@@ -91,13 +93,13 @@ code {
 }
 
 blockquote {
-    color: gray;
-    border-left: 5px solid #f0f0f0;
+    color: #787878;
+    border-left: 5px solid #d0d0d0;
     padding-left: 16px;
 }
 
 .light {
-    color: #d5d5d5;
+    color: #787878;
 }
 
 #title, h1.inner {
