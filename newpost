@@ -24,4 +24,4 @@ File.open(path, "w") do |f|
 end
 
 puts "=> #{path}"
-`gvim #{path}`
+`vim #{path}`

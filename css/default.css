@@ -24,8 +24,7 @@ body {
     font-family: "Fontin Sans", sans-serif;
     font-size: 16px;
     line-height: 24px;
-    /* bg image found on http://subtlepatterns.com */
-    background: url("/images/bright_squares.png");
+    background: #efefef;
 }
 
 strong {

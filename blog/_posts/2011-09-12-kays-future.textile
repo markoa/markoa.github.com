@@ -1,0 +1,12 @@
+---
+title: Kay's future
+layout: post
+---
+
+Here's "an interesting talk by Alan Kay":http://vimeo.com/22463791 ("via":http://axisofeval.blogspot.com/2011/08/srii-2011-keynote-talk-by-alan-kay.html) about some exciting history in computing that he was part of but didn't spread, how new is much harder than news, how the web was done by amateurs etc. Many, many ideas float.
+
+Is Apple, with more cash than the US state, forever going to cater only to people's primal computing needs? Why not try to make something new (in software) and educate people about it? I like my iPad-the-reading-device but sometimes it feels shallow.
+
+Kay says that the desktop GUI that we have today was just a subset that he intended for children. He also brings up an "old" idea about making software objects communicate not by agreemeent, but by negotiation. That's what we do between ourselves all the time. We're a kind that has agreed on so little.
+
+Anything that takes a big deal of agreement is likely to fail. A lot of things on the web are like that. The foundations are very primitive, and we cannot evolve particularly brilliant things on top of them. Latest reminder is the "unfolding":http://markmail.org/message/uro3jtoitlmq6x7t "drama of Google Dash":http://news.ycombinator.com/item?id=2982256.

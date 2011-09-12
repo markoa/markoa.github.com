@@ -6,9 +6,9 @@ title: About
 <div class="post">
 h2. About
 
-I make web software at "Rendered Text":http://renderedtext.com. Apart from client work, with "friends":http://plakatt.com/about I'm working on "Plakatt":http://plakatt.com, a website for sharing and discovering events. And I do "open source":/open-source too.
+I cofounded "Rendered Text":http://renderedtext.com to make excellent web software. Apart from client work, with "friends":http://plakatt.com/about I made "Plakatt":http://plakatt.com, a website for sharing and discovering events. And I do "open source":/open-source too.
 
-I like more and more music every day since fifth grade, loose tea, speak a bit of Italian, lived on an island, climbed the highest mountain in my country, and these days I have moustache.
+I also love watermelons, speak a bit of Italian, lived on an island and climbed the highest mountain in my country. These days I have moustache.
 
 You can email me at marko.anastasov ✉ gmail.com.
 
