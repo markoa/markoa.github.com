@@ -63,6 +63,10 @@ h1 {
     font-weight: normal;
 }
 
+article h1, h2 {
+    margin: 4em 0 0 0;
+}
+
 .post h1 {
     font-size: 1.1em;
     font-weight: bold;

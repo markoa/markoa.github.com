@@ -1,0 +1,12 @@
+---
+title: Educators who are not engineers
+layout: post
+---
+
+I think there are various degrees of disconnectedness from practice in people who educate and equip programmers. It seems to in descending order for academics, language inventors, framework authors and book writers. That's a blatant generalization of course, but I think it applies in many cases.
+
+I'll go on, in fact: academics "assume time is free and infinite" (via "DF":http://twitter.com/darkofabijan), language inventors are nebulous, framework developers have not shipped a commercial application in years and book writers decide to write books when they're through their second tutorial of a marketable new programming language.
+
+The best things in software development happen when a maker finds himself in one of those roles. Books are a different case though, as they require a gift for teaching, and it's not a coincidence that some of the best books are co-written by "serial book writers".
+
+I thought of this while I was searching about a new programming language, and I found one person's praising blog post. It was full of logic which was on a purely philosophical level. Advanced features were treated with a single sentence. I browsed the archives a bit and found out that this guy had started to study the language about two months before that post. Fast forward a few months to present, he's writing a book about it. Meanwhile he wrote one app in another language during the whole past year.  I find that suspicious. Can you really trust your learning time with someone like that?
